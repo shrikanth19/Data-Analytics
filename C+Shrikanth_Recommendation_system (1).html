@@ -1,0 +1,2910 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>da1da32480574ae8bab8f8c416d852fc</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="pXQzH0nC5JtP">
+<h1 id="project-amazon-product-recommendation-system"><strong>Project: Amazon Product Recommendation System</strong></h1>
+<h1 id="marks-60"><strong>Marks: 60</strong></h1>
+<p>Welcome to the project on Recommendation Systems. We will work with the Amazon product reviews dataset for this project. The dataset contains ratings of different electronic products. It does not include information about the products or reviews to avoid bias while building the model.</p>
+<hr />
+<h2 id="-context">## <strong>Context</strong></h2>
+<p>E-commerce websites like Amazon, Flipkart uses different recommendation models to provide personalized suggestions to different users. For example, one of the recommendation models that Amazon uses is item-to-item collaborative filtering, which scales to massive data sets and produces high-quality recommendations in real-time.</p>
+<hr />
+<h2 id="-objective">## <strong>Objective</strong></h2>
+<p>Build a recommendation system to recommend products to customers based on their previous ratings for other products.</p>
+<hr />
+<h2 id="-dataset">## <strong>Dataset</strong></h2>
+<p>The Amazon dataset contains the following attributes:</p>
+<ul>
+<li><strong>userId:</strong> Every user identified with a unique id</li>
+<li><strong>productId:</strong> Every product identified with a unique id</li>
+<li><strong>Rating:</strong> The rating of the corresponding product by the corresponding user</li>
+<li><strong>timestamp:</strong> Time of the rating. We <strong>will not use this column</strong> to solve the current problem</li>
+</ul>
+</div>
+<div class="cell markdown" id="UoRfgjS2yekq">
+<p>Sometimes, the installation of the surprise library, which is used to build recommendation systems, faces issues in Jupyter. To avoid any issues, it is advised to use <strong>Google Colab</strong> for this project.</p>
+<p>Let's start by mounting the Google drive on Colab.</p>
+</div>
+<div class="cell code" data-execution_count="1" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="GZ0YAszcT4zK" data-outputId="583a5119-9546-4d5b-cbe8-40f895044379">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mounted at /content/drive
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="0Ibk07-Cyekt">
+<p><strong>Installing surprise library</strong></p>
+</div>
+<div class="cell code" data-execution_count="2" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="05HQoiZYlsbB" data-outputId="e51dd22a-05e9-4458-8201-883a3f6cbfdf">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install surprise</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Collecting surprise
+  Downloading surprise-0.1-py2.py3-none-any.whl (1.8 kB)
+Collecting scikit-surprise
+  Downloading scikit-surprise-1.1.1.tar.gz (11.8 MB)
+ent already satisfied: joblib&gt;=0.11 in /usr/local/lib/python3.7/dist-packages (from scikit-surprise-&gt;surprise) (1.2.0)
+Requirement already satisfied: numpy&gt;=1.11.2 in /usr/local/lib/python3.7/dist-packages (from scikit-surprise-&gt;surprise) (1.21.6)
+Requirement already satisfied: scipy&gt;=1.0.0 in /usr/local/lib/python3.7/dist-packages (from scikit-surprise-&gt;surprise) (1.7.3)
+Requirement already satisfied: six&gt;=1.10.0 in /usr/local/lib/python3.7/dist-packages (from scikit-surprise-&gt;surprise) (1.15.0)
+Building wheels for collected packages: scikit-surprise
+  Building wheel for scikit-surprise (setup.py) ... e=scikit_surprise-1.1.1-cp37-cp37m-linux_x86_64.whl size=1633941 sha256=89ad303c54a7d06060f55c29abaa0a2d74f97832d919323920a241f8e0bb1677
+  Stored in directory: /root/.cache/pip/wheels/76/44/74/b498c42be47b2406bd27994e16c5188e337c657025ab400c1c
+Successfully built scikit-surprise
+Installing collected packages: scikit-surprise, surprise
+Successfully installed scikit-surprise-1.1.1 surprise-0.1
+</code></pre>
+</div>
+</div>
+<section id="importing-the-necessary-libraries-and-overview-of-the-dataset" class="cell markdown" id="7fIt4jcFIm76">
+<h2><strong>Importing the necessary libraries and overview of the dataset</strong></h2>
+</section>
+<div class="cell code" data-execution_count="3" id="jzu2P-TT5JtP">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings                                 <span class="co"># Used to ignore the warning given as output of the code</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np                              <span class="co"># Basic libraries of python for numeric and dataframe computations</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt                 <span class="co"># Basic library for data visualization</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns                           <span class="co"># Slightly advanced library for data visualization</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> defaultdict             <span class="co"># A dictionary output that does not raise a key error</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error  <span class="co"># A performance metrics in sklearn</span></span></code></pre></div>
+</div>
+<section id="loading-the-data" class="cell markdown" id="NrXYJAv95JtP">
+<h3><strong>Loading the data</strong></h3>
+</section>
+<div class="cell code" data-execution_count="4" id="JGb-Hk1B5JtP">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the dataset</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;/content/drive/MyDrive/ratings_Electronics.csv&#39;</span>, header <span class="op">=</span> <span class="va">None</span>) <span class="co"># There are no headers in the data file</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>df.columns <span class="op">=</span> [<span class="st">&#39;user_id&#39;</span>, <span class="st">&#39;prod_id&#39;</span>, <span class="st">&#39;rating&#39;</span>, <span class="st">&#39;timestamp&#39;</span>] <span class="co"># Adding column names</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.drop(<span class="st">&#39;timestamp&#39;</span>, axis <span class="op">=</span> <span class="dv">1</span>) <span class="co"># Dropping timestamp</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>df_copy <span class="op">=</span> df.copy(deep <span class="op">=</span> <span class="va">True</span>) <span class="co"># Copying the data to another DataFrame</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="23" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="bsYQkv1O5qWe" data-outputId="6c26640d-85f2-42b7-9948-7e3bb37d4289">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.head</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>&lt;bound method NDFrame.head of                 user_id     prod_id  rating
+94       A3BY5KCNQZXV5U  0594451647     5.0
+118       AT09WGFUM934H  0594481813     3.0
+177      A32HSNCNPRUMTR  0970407998     1.0
+178      A17HMM1M7T9PJ1  0970407998     4.0
+492      A3CLWR1UUZT6TG  0972683275     5.0
+...                 ...         ...     ...
+7824426   A1E1LEVQ9VQNK  B00LGQ6HL8     5.0
+7824427  A2NYK9KWFMJV4Y  B00LGQ6HL8     5.0
+7824436  A3AYSYSLHU26U9  B00LI4ZZO8     4.0
+7824438  A2NYK9KWFMJV4Y  B00LI4ZZO8     5.0
+7824444  A2BYV7S1QP2YIG  B00LKG1MC8     5.0
+
+[125871 rows x 3 columns]&gt;</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="OVQnSG5g_9uX">
+<p><strong>As this dataset is very large and has 7,824,482 observations, it is not computationally possible to build a model using this. Moreover, many users have only rated a few products and also some products are rated by very few users. Hence, we can reduce the dataset by considering certain logical assumptions.</strong></p>
+<p>Here, we will be taking users who have given at least 50 ratings, and the products that have at least 5 ratings, as when we shop online we prefer to have some number of ratings of a product.</p>
+</div>
+<div class="cell code" data-execution_count="5" id="4Kxd7KknPTDP">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the column containing the users</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>users <span class="op">=</span> df.user_id</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a dictionary from users to their number of ratings</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>ratings_count <span class="op">=</span> <span class="bu">dict</span>()</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> user <span class="kw">in</span> users:</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If we already have the user, just add 1 to their rating count</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user <span class="kw">in</span> ratings_count:        </span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>        ratings_count[user] <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Otherwise, set their rating count to 1</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>        ratings_count[user] <span class="op">=</span> <span class="dv">1</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="6" id="JwBSrR5FPTDR">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We want our users to have at least 50 ratings to be considered</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>RATINGS_CUTOFF <span class="op">=</span> <span class="dv">50</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>remove_users <span class="op">=</span> []</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> user, num_ratings <span class="kw">in</span> ratings_count.items():</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> num_ratings <span class="op">&lt;</span> RATINGS_CUTOFF:</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>        remove_users.append(user)</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.loc[ <span class="op">~</span> df.user_id.isin(remove_users)]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="7" id="a8QaUwRXPTDS">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the column containing the products</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>prods <span class="op">=</span> df.prod_id</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a dictionary from products to their number of ratings</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>ratings_count <span class="op">=</span> <span class="bu">dict</span>()</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> prod <span class="kw">in</span> prods:</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If we already have the product, just add 1 to its rating count</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> prod <span class="kw">in</span> ratings_count:</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>        ratings_count[prod] <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Otherwise, set their rating count to 1</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>        ratings_count[prod] <span class="op">=</span> <span class="dv">1</span>    </span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="8" id="sFySdowWPTDT">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We want our item to have at least 5 ratings to be considered</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>RATINGS_CUTOFF <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>remove_users <span class="op">=</span> []</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> user, num_ratings <span class="kw">in</span> ratings_count.items():</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> num_ratings <span class="op">&lt;</span> RATINGS_CUTOFF:</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>        remove_users.append(user)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>df_final <span class="op">=</span> df.loc[<span class="op">~</span> df.prod_id.isin(remove_users)]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="9" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="aL1JZ00o5JtQ" data-outputId="b27f12cf-5bc3-4f0d-e457-1eadf19bbb7c">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Print a few rows of the imported dataset</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df_final.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+
+  <div id="df-bf29b3c3-7674-4444-83a2-e65a3934689a">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>prod_id</th>
+      <th>rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1310</th>
+      <td>A3LDPF5FMB782Z</td>
+      <td>1400501466</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>1322</th>
+      <td>A1A5KUIIIHFF4U</td>
+      <td>1400501466</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1335</th>
+      <td>A2XIOXRRYX0KZY</td>
+      <td>1400501466</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>1451</th>
+      <td>AW3LX47IHPFRL</td>
+      <td>1400501466</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>1456</th>
+      <td>A1E3OB6QMBKRYZ</td>
+      <td>1400501466</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-bf29b3c3-7674-4444-83a2-e65a3934689a')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-bf29b3c3-7674-4444-83a2-e65a3934689a button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-bf29b3c3-7674-4444-83a2-e65a3934689a');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="exploratory-data-analysis-6-marks" class="cell markdown" id="GuPoy_XfxhXZ">
+<h2><strong>Exploratory Data Analysis (6 marks)</strong></h2>
+</section>
+<section id="shape-of-the-data" class="cell markdown" id="s0d0bWeG-sVB">
+<h3><strong>Shape of the data</strong></h3>
+</section>
+<section id="question-check-the-number-of-rows-and-columns-and-provide-observations" class="cell markdown" id="qyBVTRDTyek0">
+<h3><strong>Question: Check the number of rows and columns and provide observations.</strong></h3>
+</section>
+<div class="cell code" data-execution_count="10" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="fJ4eQKaY5JtQ" data-outputId="eb1c24b0-9005-4aee-fa2c-336875eeb4e7">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the number of rows and columns and provide observations</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>rows, columns <span class="op">=</span> df_final.shape</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;No of rows: &quot;</span>, rows) </span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;No of columns: &quot;</span>, columns) </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>No of rows:  65290
+No of columns:  3
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="Slp-fgWQ-sVD">
+<p><strong>Observations:______</strong></p>
+<ul>
+<li>No of rows observed is 65290</li>
+<li>No of columns is 3</li>
+</ul>
+</div>
+<section id="data-types" class="cell markdown" id="lAMWm0nC-sVF">
+<h3><strong>Data types</strong></h3>
+</section>
+<section id="question-check-data-types-and-provide-observations" class="cell markdown" id="HfHO09fLyek1">
+<h3><strong>Question: Check data types and provide observations.</strong></h3>
+</section>
+<div class="cell code" data-execution_count="11" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="SVrgMkye5JtQ" data-outputId="b4e3820b-9fc1-42bc-8ddb-a649aba4d558">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check Data types and provide observations</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>df_final.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+Int64Index: 65290 entries, 1310 to 7824427
+Data columns (total 3 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   user_id  65290 non-null  object 
+ 1   prod_id  65290 non-null  object 
+ 2   rating   65290 non-null  float64
+dtypes: float64(1), object(2)
+memory usage: 2.0+ MB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="z4fOE02D-sVF">
+<p><strong>Observations:______</strong></p>
+<ol>
+<li>user_id and prod_id are of 65,000 observations with object data type.</li>
+<li>ratings with 65,000 observations with numeric float datatype.</li>
+</ol>
+</div>
+<section id="checking-for-missing-values" class="cell markdown" id="lTMpOROT-sVG">
+<h3><strong>Checking for missing values</strong></h3>
+</section>
+<section id="questions-check-for-missing-value-in-the-data-and-provide-observations" class="cell markdown" id="JhMaoXTOyek2">
+<h3><strong>Questions: Check for missing value in the data and provide observations.</strong></h3>
+</section>
+<div class="cell code" data-execution_count="12" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="vt-VEjMA5JtQ" data-outputId="044eb53d-e9e4-4c49-c4cf-16774375d9b5">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for missing values present and provide observations</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>df_final.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>user_id    0
+prod_id    0
+rating     0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="qMWuBNhI5JtR">
+<p><strong>Observations:______</strong></p>
+<p>Missing values are not observed in any of the features(user_id, prod_id and ratings).</p>
+</div>
+<section id="summary-statistics" class="cell markdown" id="wETrCg48-sVG">
+<h3><strong>Summary Statistics</strong></h3>
+</section>
+<section id="question-summary-statistics-of-rating-variable-and-provide-observations" class="cell markdown" id="JoRaBkB2yek3">
+<h3><strong>Question: Summary statistics of 'rating' variable and provide observations.</strong></h3>
+</section>
+<div class="cell code" data-execution_count="13" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="tYm30MXR5JtR" data-outputId="7cf85585-dd91-48f9-e784-6f4df10c04b5">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary statistics of &#39;rating&#39; variable and provide observations</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>df_final[<span class="st">&#39;rating&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>5.0    36315
+4.0    18127
+3.0     6481
+2.0     2515
+1.0     1852
+Name: rating, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="VqW50EIJxhXc">
+<p><strong>Observations:______</strong></p>
+<ul>
+<li>rating of 5 has 36,315 observations</li>
+<li>rating of 4 has 18,127 observations</li>
+<li>rating of 3 has 6,481 observations</li>
+<li>rating of 1 has 1,852 observations</li>
+</ul>
+</div>
+<section id="checking-the-rating-distribution" class="cell markdown" id="ywyFrZIf5JtR">
+<h3><strong>Checking the rating distribution</strong></h3>
+</section>
+<section id="question-create-the-bar-plot-and-provide-observations" class="cell markdown" id="J1CCMWAfyek3">
+<h3><strong>Question: Create the bar plot and provide observations.</strong></h3>
+</section>
+<div class="cell code" data-execution_count="14" data-colab="{&quot;height&quot;:380,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="QbqhbEVe-sVH" data-outputId="8285267d-9504-41d5-b75c-90c2cb84b2db">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the bar plot and provide observations</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>df_final[<span class="st">&#39;rating&#39;</span>].value_counts(<span class="dv">1</span>).plot(kind <span class="op">=</span><span class="st">&quot;bar&quot;</span>)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_05324fe5183d4ff088405557b009ad7d/06dde124efc181afb13fbd053486a0a71ad19841.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="t0jONrQv-sVH">
+<p><strong>Observations:________</strong></p>
+<p>From bar plot it can observed that 5 has the highest number of observation follwed by 4 and the observations have decreased in decending order.</p>
+</div>
+<section id="checking-the-number-of-unique-users-and-items-in-the-dataset" class="cell markdown" id="HefpLdLJxhXd">
+<h3><strong>Checking the number of unique users and items in the dataset</strong></h3>
+</section>
+<div class="cell code" data-execution_count="15" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="NbSom7195JtR" data-outputId="bec34f40-be33-437d-ecdc-9e1847c865e1">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Number of unique user id and product id in the data</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Number of unique USERS in Raw data = &#39;</span>, df_final[<span class="st">&#39;user_id&#39;</span>].nunique())</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Number of unique ITEMS in Raw data = &#39;</span>, df_final[<span class="st">&#39;prod_id&#39;</span>].nunique())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of unique USERS in Raw data =  1540
+Number of unique ITEMS in Raw data =  5689
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="Qwgz6CUt-sVI">
+<ul>
+<li>There are <strong>1540 unique users and 5689 products</strong> in the dataset.</li>
+</ul>
+</div>
+<section id="users-with-the-most-number-of-ratings" class="cell markdown" id="RfDnhSS4-sVI">
+<h3><strong>Users with the most number of ratings</strong></h3>
+</section>
+<div class="cell code" data-execution_count="16" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="n7MX452q5JtR" data-outputId="96d527f8-bdfb-420a-cbd4-4c322063d0b5">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Top 10 users based on the number of ratings</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>most_rated <span class="op">=</span> df_final.groupby(<span class="st">&#39;user_id&#39;</span>).size().sort_values(ascending <span class="op">=</span> <span class="va">False</span>)[:<span class="dv">10</span>]</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>most_rated</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>user_id
+ADLVFFE4VBT8      295
+A3OXHLG6DIBRW8    230
+A1ODOGXEYECQQ8    217
+A36K2N527TXXJN    212
+A25C2M3QF9G7OQ    203
+A680RUE1FDO8B     196
+A22CW0ZHY3NJH8    193
+A1UQBFCERIP7VJ    193
+AWPODHOB4GFWL     184
+A3LGT6UZL99IW1    179
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="1X2w_jt9-sVI">
+<ul>
+<li>The highest number of <strong>ratings by a user is 295</strong> which is far from the actual number of products present in the data. We can build a recommendation system to recommend products to users which they have not interacted with.</li>
+</ul>
+</div>
+<section id="data-preparation-2-marks" class="cell markdown" id="1HIMYcy35JtS">
+<h2><strong>Data Preparation (2 Marks)</strong></h2>
+</section>
+<section id="question-check-the-number-of-unique-users-and-products-in-the-final-data-and-provide-observations" class="cell markdown" id="iHz8OWcSyek5">
+<h3><strong>Question: Check the number of unique USERS and PRODUCTS in the final data and provide observations.</strong></h3>
+</section>
+<div class="cell code" data-execution_count="17" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="OSBTrRKJ5JtS" data-outputId="697bc663-85b7-4e96-fe47-61c05635c194">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the number of unique USERS and PRODUCTS in the final data and provide observations</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The number of observations in the final data = &#39;</span>, <span class="bu">len</span>(df_final))</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Number of unique USERS in the final data = &#39;</span>, df_final[<span class="st">&#39;user_id&#39;</span>].nunique())</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Number of unique PRODUCTS in the final data = &#39;</span>, df_final[<span class="st">&#39;prod_id&#39;</span>].nunique())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The number of observations in the final data =  65290
+Number of unique USERS in the final data =  1540
+Number of unique PRODUCTS in the final data =  5689
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="KX38_A_m-sVg">
+<p><strong>Observations:_______</strong></p>
+<ul>
+<li>number of unique users has 1540 observatins.</li>
+<li>number of unique products has 5689 observations.</li>
+</ul>
+</div>
+<div class="cell markdown" id="EnYTx-Ol-sVg">
+<p><strong>Now that we have explored and prepared the data, let's build the first recommendation system.</strong></p>
+</div>
+<section id="model-1-rank-based-recommendation-system-10-marks" class="cell markdown" id="6xYGrGVy5JtS">
+<h2><strong>Model 1: Rank Based Recommendation System (10 marks)</strong></h2>
+</section>
+<div class="cell code" data-execution_count="18" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="gHcPIZu_YoXC" data-outputId="f7ba6f40-c6ec-473e-cae4-e6b9b9568d00">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>df_final.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+
+  <div id="df-25f88a06-68e9-4da4-ba3a-9d775aab0c88">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>prod_id</th>
+      <th>rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1310</th>
+      <td>A3LDPF5FMB782Z</td>
+      <td>1400501466</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>1322</th>
+      <td>A1A5KUIIIHFF4U</td>
+      <td>1400501466</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1335</th>
+      <td>A2XIOXRRYX0KZY</td>
+      <td>1400501466</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>1451</th>
+      <td>AW3LX47IHPFRL</td>
+      <td>1400501466</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>1456</th>
+      <td>A1E3OB6QMBKRYZ</td>
+      <td>1400501466</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-25f88a06-68e9-4da4-ba3a-9d775aab0c88')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-25f88a06-68e9-4da4-ba3a-9d775aab0c88 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-25f88a06-68e9-4da4-ba3a-9d775aab0c88');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="question" class="cell markdown" id="a8INahjvNF2Y">
+<h3>Question:</h3>
+<ul>
+<li><strong>Create the final_rating DataFrame (4 Marks)</strong></li>
+<li><strong>Complete the code to create the function top_n_products (4 Marks)</strong></li>
+<li><strong>Recommending top 5 products with 50 minimum interactions based on popularity (1 Mark)</strong></li>
+<li><strong>Recommending top 5 products with 100 minimum interactions based on popularity (1 Mark)</strong></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="71" data-colab="{&quot;height&quot;:237,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="yxZTj1UPxhXh" data-outputId="322ef8c5-8f2b-4689-9965-04f7aec6cfe5" data-scrolled="true">
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the average rating for each product </span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>average_rating <span class="op">=</span> df_final.groupby(<span class="st">&#39;prod_id&#39;</span>).mean()[<span class="st">&#39;rating&#39;</span>]</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the count of ratings for each product</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>count_rating <span class="op">=</span> df_final.groupby(<span class="st">&#39;prod_id&#39;</span>).count()[<span class="st">&#39;rating&#39;</span>]</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a dataframe with calculated average and count of ratings</span></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>final_rating <span class="op">=</span> pd.DataFrame({<span class="st">&#39;average rating&#39;</span>:average_rating,<span class="st">&#39;rating_count&#39;</span>:count_rating})</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the dataframe by average of ratings in the descending order</span></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>final_rating <span class="op">=</span> final_rating.sort_values(by<span class="op">=</span><span class="st">&#39;average rating&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a><span class="co"># See the first five records of the &quot;final_rating&quot; dataset</span></span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>final_rating.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="71">
+
+  <div id="df-fe78bb38-ddfb-41b6-b3d1-c3a13a977610">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>average rating</th>
+      <th>rating_count</th>
+    </tr>
+    <tr>
+      <th>prod_id</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>B00LGQ6HL8</th>
+      <td>5.0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>B003DZJQQI</th>
+      <td>5.0</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>B005FDXF2C</th>
+      <td>5.0</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>B00I6CVPVC</th>
+      <td>5.0</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>B00B9KOCYA</th>
+      <td>5.0</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-fe78bb38-ddfb-41b6-b3d1-c3a13a977610')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-fe78bb38-ddfb-41b6-b3d1-c3a13a977610 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-fe78bb38-ddfb-41b6-b3d1-c3a13a977610');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="74" id="zKU__5s1xhXi">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining a function to get the top n products based on the highest average rating and minimum interactions</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> top_n_products(final_rating, n, min_interaction):</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Finding products with minimum number of interactions</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>    recommendations <span class="op">=</span>final_rating[final_rating[<span class="st">&#39;rating_count&#39;</span>]<span class="op">&gt;</span>min_interaction]</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Sorting values with respect to average rating </span></span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>    recommendations <span class="op">=</span> recommendations.sort_values(by<span class="op">=</span><span class="st">&#39;average rating&#39;</span>,ascending<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> recommendations.index[:n]</span></code></pre></div>
+</div>
+<section id="recommending-top-5-products-with-50-minimum-interactions-based-on-popularity" class="cell markdown" id="F8l6373PxhXi">
+<h3><strong>Recommending top 5 products with 50 minimum interactions based on popularity</strong></h3>
+</section>
+<div class="cell code" data-execution_count="75" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="dBxdLiM_xhXi" data-outputId="8630c6f0-a0b8-4dda-d44e-676eec837f1b">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>top<span class="op">=</span><span class="bu">list</span>(top_n_products(final_rating,<span class="dv">5</span>,<span class="dv">50</span>))</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>list_of_products<span class="op">=</span>[]</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> top:</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>  list_of_products.append(df_final[df_final[<span class="st">&#39;prod_id&#39;</span>]<span class="op">==</span><span class="bu">str</span>(i)][<span class="st">&#39;prod_id&#39;</span>].unique()[<span class="dv">0</span>])</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>list_of_products</span></code></pre></div>
+<div class="output execute_result" data-execution_count="75">
+<pre><code>[&#39;B002SQK2F2&#39;, &#39;B006I5MKZY&#39;, &#39;B001CHHVCU&#39;, &#39;B00ARB5FLQ&#39;, &#39;B00DR0PDNE&#39;]</code></pre>
+</div>
+</div>
+<section id="recommending-top-5-products-with-100-minimum-interactions-based-on-popularity" class="cell markdown" id="l9_xW_UMxhXj">
+<h3><strong>Recommending top 5 products with 100 minimum interactions based on popularity</strong></h3>
+</section>
+<div class="cell code" data-execution_count="76" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="dZgGZCUoxhXj" data-outputId="e701eed7-464f-4941-e24a-590a9e22bb09">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>top1<span class="op">=</span><span class="bu">list</span>(top_n_products(final_rating,<span class="dv">5</span>,<span class="dv">100</span>))</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>list_of_products<span class="op">=</span>[]</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> top:</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>  list_of_products.append(df_final[df_final[<span class="st">&#39;prod_id&#39;</span>]<span class="op">==</span><span class="bu">str</span>(i)][<span class="st">&#39;prod_id&#39;</span>].unique()[<span class="dv">0</span>])</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>list_of_products</span></code></pre></div>
+<div class="output execute_result" data-execution_count="76">
+<pre><code>[&#39;B002SQK2F2&#39;, &#39;B006I5MKZY&#39;, &#39;B001CHHVCU&#39;, &#39;B00ARB5FLQ&#39;, &#39;B00DR0PDNE&#39;]</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="BL-m68a15JtT" data-outputId="69132b0f-8d3f-4798-f6a0-249e17a3c822">
+<p>We have recommended the <strong>top 5</strong> products by using the popularity recommendation system. Now, let's build a recommendation system using <strong>collaborative filtering.</strong></p>
+</div>
+<section id="model-2-collaborative-filtering-recommendation-system" class="cell markdown" id="sJI5kiiGvOOK">
+<h2><strong>Model 2: Collaborative Filtering Recommendation System</strong></h2>
+</section>
+<div class="cell markdown" id="QoSujZuuvOOK">
+<p>In this type of recommendation system, <code>we do not need any information</code> about the users or items. We only need user item interaction data to build a collaborative recommendation system. For example - <ol> <li><b>Ratings</b> provided by users. For example, ratings of books on goodread, movie ratings on imdb, etc.</li> <li><b>Likes</b> of users on different facebook posts, likes on youtube videos.</li> <li><b>Use/buying</b> of a product by users. For example, buying different items on e-commerce sites.</li> <li><b>Reading</b> of articles by readers on various blogs.</li> </ol></p>
+</div>
+<div class="cell markdown" id="A_3GtPzuvOOK">
+<p><strong>Types of Collaborative Filtering</strong></p>
+</div>
+<div class="cell markdown" id="igZX3WbqvOOK">
+<ul>
+<li><p>Similarity/Neighborhood based</p></li>
+<li><p>User-User Similarity Based<br />
+</p></li>
+<li><p>Item-Item similarity based</p></li>
+<li><p>Model based</p></li>
+</ul>
+</div>
+<section id="building-a-baseline-user-user-similarity-based-recommendation-system" class="cell markdown" id="skzc0N1_nVNB">
+<h3><strong>Building a baseline user-user similarity based recommendation system</strong></h3>
+</section>
+<div class="cell markdown" id="d4Uo_MYMnVNB">
+<ul>
+<li>Below, we are building <strong>similarity-based recommendation systems</strong> using <code>cosine</code> similarity and using <strong>KNN to find similar users</strong> which are the nearest neighbor to the given user.<br />
+</li>
+<li>We will be using a new library, called <code>surprise</code>, to build the remaining models. Let's first import the necessary classes and functions from this library.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="77" id="UJ1wEylUpexj">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># To compute the accuracy of models</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise <span class="im">import</span> accuracy</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Class is used to parse a file containing ratings, data should be in structure - user ; item ; rating</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise.reader <span class="im">import</span> Reader</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Class for loading datasets</span></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise.dataset <span class="im">import</span> Dataset</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="co"># For tuning model hyperparameters</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise.model_selection <span class="im">import</span> GridSearchCV</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a><span class="co"># For splitting the rating data in train and test datasets</span></span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a><span class="co"># For implementing similarity-based recommendation system</span></span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise.prediction_algorithms.knns <span class="im">import</span> KNNBasic</span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a><span class="co"># For implementing matrix factorization based recommendation system</span></span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise.prediction_algorithms.matrix_factorization <span class="im">import</span> SVD</span>
+<span id="cb36-21"><a href="#cb36-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-22"><a href="#cb36-22" aria-hidden="true" tabindex="-1"></a><span class="co"># for implementing K-Fold cross-validation</span></span>
+<span id="cb36-23"><a href="#cb36-23" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise.model_selection <span class="im">import</span> KFold</span>
+<span id="cb36-24"><a href="#cb36-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-25"><a href="#cb36-25" aria-hidden="true" tabindex="-1"></a><span class="co"># For implementing clustering-based recommendation system</span></span>
+<span id="cb36-26"><a href="#cb36-26" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> surprise <span class="im">import</span> CoClustering</span></code></pre></div>
+</div>
+<div class="cell markdown" id="54MqVAtDTsnl">
+<p><strong>Before building the recommendation systems, let's go over some basic terminologies we are going to use:</strong></p>
+</div>
+<div class="cell markdown" id="Qsxb3xhnTsnl">
+<p><strong>Relevant item:</strong> An item (product in this case) that is actually <strong>rated higher than the threshold rating (here 3.5)</strong> is relevant, if the <strong>actual rating is below the threshold then it is a non-relevant item</strong>.</p>
+<p><strong>Recommended item:</strong> An item that's <strong>predicted rating is higher than the threshold (here 3.5) is a recommended item</strong>, if the <strong>predicted rating is below the threshold then that product will not be recommended to the user</strong>.</p>
+</div>
+<div class="cell markdown" id="moyLUHCuTsnl">
+<p><strong>False Negative (FN):</strong> It is the <strong>frequency of relevant items that are not recommended to the user</strong>. If the relevant items are not recommended to the user, then the user might not buy the product/item. This would result in the <strong>loss of opportunity for the service provider</strong>, which they would like to minimize.</p>
+<p><strong>False Positive (FP):</strong> It is the <strong>frequency of recommended items that are actually not relevant</strong>. In this case, the recommendation system is not doing a good job of finding and recommending the relevant items to the user. This would result in <strong>loss of resources for the service provider</strong>, which they would also like to minimize.</p>
+</div>
+<div class="cell markdown" id="Yuvc2VaZTsnl">
+<p><strong>Recall:</strong> It is the <strong>fraction of actually relevant items that are recommended to the user</strong>, i.e., if out of 10 relevant products, 6 are recommended to the user then recall is 0.60. Higher the value of recall better is the model. It is one of the metrics to do the performance assessment of classification models.</p>
+<p><strong>Precision:</strong> It is the <strong>fraction of recommended items that are relevant actually</strong>, i.e., if out of 10 recommended items, 6 are found relevant by the user then precision is 0.60. The higher the value of precision better is the model. It is one of the metrics to do the performance assessment of classification models.</p>
+</div>
+<div class="cell markdown" id="8NLc36Y8Tsnm">
+<p><strong>While making a recommendation system, it becomes customary to look at the performance of the model. In terms of how many recommendations are relevant and vice-versa, below are some most used performance metrics used in the assessment of recommendation systems.</strong></p>
+</div>
+<section id="precisionk-recall-k-and-f1-scorek" class="cell markdown" id="cqF8fRBqTsnm">
+<h3><strong><a href="mailto:Precision@k" class="email">Precision@k</a>, Recall@ k, and <a href="mailto:F1-score@k" class="email">F1-score@k</a></strong></h3>
+</section>
+<div class="cell markdown" id="imMJNF0HTsnm">
+<p><strong><a href="mailto:Precision@k" class="email">Precision@k</a></strong> - It is the <strong>fraction of recommended items that are relevant in <code>top k</code> predictions</strong>. The value of k is the number of recommendations to be provided to the user. One can choose a variable number of recommendations to be given to a unique user.</p>
+<p><strong><a href="mailto:Recall@k" class="email">Recall@k</a></strong> - It is the <strong>fraction of relevant items that are recommended to the user in <code>top k</code> predictions</strong>.</p>
+<p><strong><a href="mailto:F1-score@k" class="email">F1-score@k</a></strong> - It is the <strong>harmonic mean of <a href="mailto:Precision@k" class="email">Precision@k</a> and <a href="mailto:Recall@k" class="email">Recall@k</a></strong>. When <strong><a href="mailto:precision@k" class="email">precision@k</a> and <a href="mailto:recall@k" class="email">recall@k</a> both seem to be important</strong> then it is useful to use this metric because it is representative of both of them.</p>
+</div>
+<section id="some-useful-functions" class="cell markdown" id="jBW4BUhWTsnm">
+<h3><strong>Some useful functions</strong></h3>
+</section>
+<div class="cell markdown" id="QOBHKh0eTsnm">
+<ul>
+<li>Below function takes the <strong>recommendation model</strong> as input and gives the <strong><a href="mailto:precision@k" class="email">precision@k</a>, <a href="mailto:recall@k" class="email">recall@k</a>, and <a href="mailto:F1-score@k" class="email">F1-score@k</a></strong> for that model.<br />
+</li>
+<li>To compute <strong>precision and recall</strong>, <strong>top k</strong> predictions are taken under consideration for each user.</li>
+<li>We will use the precision and recall to compute the F1-score.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="78" id="Rxn-GahOTsnm">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> precision_recall_at_k(model, k <span class="op">=</span> <span class="dv">10</span>, threshold <span class="op">=</span> <span class="fl">3.5</span>):</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Return precision and recall at k metrics for each user&quot;&quot;&quot;</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># First map the predictions to each user</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    user_est_true <span class="op">=</span> defaultdict(<span class="bu">list</span>)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Making predictions on the test data</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> model.test(testset)</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> uid, _, true_r, est, _ <span class="kw">in</span> predictions:</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>        user_est_true[uid].append((est, true_r))</span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>    precisions <span class="op">=</span> <span class="bu">dict</span>()</span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>    recalls <span class="op">=</span> <span class="bu">dict</span>()</span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> uid, user_ratings <span class="kw">in</span> user_est_true.items():</span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Sort user ratings by estimated value</span></span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a>        user_ratings.sort(key <span class="op">=</span> <span class="kw">lambda</span> x: x[<span class="dv">0</span>], reverse <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Number of relevant items</span></span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a>        n_rel <span class="op">=</span> <span class="bu">sum</span>((true_r <span class="op">&gt;=</span> threshold) <span class="cf">for</span> (_, true_r) <span class="kw">in</span> user_ratings)</span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-23"><a href="#cb37-23" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Number of recommended items in top k</span></span>
+<span id="cb37-24"><a href="#cb37-24" aria-hidden="true" tabindex="-1"></a>        n_rec_k <span class="op">=</span> <span class="bu">sum</span>((est <span class="op">&gt;=</span> threshold) <span class="cf">for</span> (est, _) <span class="kw">in</span> user_ratings[:k])</span>
+<span id="cb37-25"><a href="#cb37-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-26"><a href="#cb37-26" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Number of relevant and recommended items in top k</span></span>
+<span id="cb37-27"><a href="#cb37-27" aria-hidden="true" tabindex="-1"></a>        n_rel_and_rec_k <span class="op">=</span> <span class="bu">sum</span>(((true_r <span class="op">&gt;=</span> threshold) <span class="kw">and</span> (est <span class="op">&gt;=</span> threshold))</span>
+<span id="cb37-28"><a href="#cb37-28" aria-hidden="true" tabindex="-1"></a>                              <span class="cf">for</span> (est, true_r) <span class="kw">in</span> user_ratings[:k])</span>
+<span id="cb37-29"><a href="#cb37-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-30"><a href="#cb37-30" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Precision@K: Proportion of recommended items that are relevant</span></span>
+<span id="cb37-31"><a href="#cb37-31" aria-hidden="true" tabindex="-1"></a>        <span class="co"># When n_rec_k is 0, Precision is undefined. Therefore, we are setting Precision to 0 when n_rec_k is 0</span></span>
+<span id="cb37-32"><a href="#cb37-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-33"><a href="#cb37-33" aria-hidden="true" tabindex="-1"></a>        precisions[uid] <span class="op">=</span> n_rel_and_rec_k <span class="op">/</span> n_rec_k <span class="cf">if</span> n_rec_k <span class="op">!=</span> <span class="dv">0</span> <span class="cf">else</span> <span class="dv">0</span></span>
+<span id="cb37-34"><a href="#cb37-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-35"><a href="#cb37-35" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Recall@K: Proportion of relevant items that are recommended</span></span>
+<span id="cb37-36"><a href="#cb37-36" aria-hidden="true" tabindex="-1"></a>        <span class="co"># When n_rel is 0, Recall is undefined. Therefore, we are setting Recall to 0 when n_rel is 0</span></span>
+<span id="cb37-37"><a href="#cb37-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-38"><a href="#cb37-38" aria-hidden="true" tabindex="-1"></a>        recalls[uid] <span class="op">=</span> n_rel_and_rec_k <span class="op">/</span> n_rel <span class="cf">if</span> n_rel <span class="op">!=</span> <span class="dv">0</span> <span class="cf">else</span> <span class="dv">0</span></span>
+<span id="cb37-39"><a href="#cb37-39" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-40"><a href="#cb37-40" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Mean of all the predicted precisions are calculated.</span></span>
+<span id="cb37-41"><a href="#cb37-41" aria-hidden="true" tabindex="-1"></a>    precision <span class="op">=</span> <span class="bu">round</span>((<span class="bu">sum</span>(prec <span class="cf">for</span> prec <span class="kw">in</span> precisions.values()) <span class="op">/</span> <span class="bu">len</span>(precisions)), <span class="dv">3</span>)</span>
+<span id="cb37-42"><a href="#cb37-42" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-43"><a href="#cb37-43" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Mean of all the predicted recalls are calculated.</span></span>
+<span id="cb37-44"><a href="#cb37-44" aria-hidden="true" tabindex="-1"></a>    recall <span class="op">=</span> <span class="bu">round</span>((<span class="bu">sum</span>(rec <span class="cf">for</span> rec <span class="kw">in</span> recalls.values()) <span class="op">/</span> <span class="bu">len</span>(recalls)), <span class="dv">3</span>)</span>
+<span id="cb37-45"><a href="#cb37-45" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-46"><a href="#cb37-46" aria-hidden="true" tabindex="-1"></a>    accuracy.rmse(predictions)</span>
+<span id="cb37-47"><a href="#cb37-47" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-48"><a href="#cb37-48" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;Precision: &#39;</span>, precision) <span class="co"># Command to print the overall precision</span></span>
+<span id="cb37-49"><a href="#cb37-49" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-50"><a href="#cb37-50" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;Recall: &#39;</span>, recall) <span class="co"># Command to print the overall recall</span></span>
+<span id="cb37-51"><a href="#cb37-51" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-52"><a href="#cb37-52" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;F_1 score: &#39;</span>, <span class="bu">round</span>((<span class="dv">2</span><span class="op">*</span>precision<span class="op">*</span>recall)<span class="op">/</span>(precision<span class="op">+</span>recall), <span class="dv">3</span>)) <span class="co"># Formula to compute the F-1 score</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="_ZmsamDVyek-">
+<ul>
+<li>To compute <strong>precision and recall</strong>, a <strong>threshold of 3.5 and k value of 10 is taken for the recommended and relevant ratings</strong>.</li>
+<li>In the <strong>present case, precision and recall both need to be optimized as the service provider would like to minimize both the losses discussed</strong> above. Hence, the correct performance measure is the <strong>F_1 score</strong>.</li>
+</ul>
+</div>
+<div class="cell markdown" id="8hxjJMTwnVNB">
+<p>Below we are loading the <strong><code>rating</code> dataset</strong>, which is a <strong>pandas DataFrame</strong>, into a <strong>different format called <code>surprise.dataset.DatasetAutoFolds</code></strong>, which is required by this library. To do this, we will be <strong>using the classes <code>Reader</code> and <code>Dataset</code>.</strong></p>
+</div>
+<div class="cell code" data-execution_count="79" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="SKR8T_clTsnm" data-outputId="7b26e548-9706-4685-a1d1-e72c9c0186f3">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>df_final.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="79">
+
+  <div id="df-8b84d8d4-31ed-4309-9894-ea1d26399444">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>prod_id</th>
+      <th>rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1310</th>
+      <td>A3LDPF5FMB782Z</td>
+      <td>1400501466</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>1322</th>
+      <td>A1A5KUIIIHFF4U</td>
+      <td>1400501466</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1335</th>
+      <td>A2XIOXRRYX0KZY</td>
+      <td>1400501466</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>1451</th>
+      <td>AW3LX47IHPFRL</td>
+      <td>1400501466</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>1456</th>
+      <td>A1E3OB6QMBKRYZ</td>
+      <td>1400501466</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8b84d8d4-31ed-4309-9894-ea1d26399444')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-8b84d8d4-31ed-4309-9894-ea1d26399444 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-8b84d8d4-31ed-4309-9894-ea1d26399444');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="80" id="rGfYDiOCpe4X">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Instantiating Reader scale with expected rating scale</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>reader <span class="op">=</span> Reader(rating_scale <span class="op">=</span> (<span class="dv">0</span>, <span class="dv">5</span>))</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Loading the rating dataset</span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> Dataset.load_from_df(df_final[[<span class="st">&#39;user_id&#39;</span>, <span class="st">&#39;prod_id&#39;</span>, <span class="st">&#39;rating&#39;</span>]], reader)</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting the data into train and test datasets</span></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>trainset, testset <span class="op">=</span> train_test_split(data, test_size <span class="op">=</span> <span class="fl">0.2</span>, random_state <span class="op">=</span> <span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="DmHTEt7TnVNC">
+<ul>
+<li>Now, we are <strong>ready to build the first baseline similarity-based recommendation system</strong> using the cosine similarity.</li>
+<li><strong>KNNBasic</strong> is an algorithm that is also <strong>associated with the surprise package</strong>. It is used to find the <strong>desired similar items among a given set of items</strong>.</li>
+</ul>
+</div>
+<section id="question--build-the-user-user-similarity-based-recommendation-system-5-marks" class="cell markdown" id="SVDfVHB4tQfU">
+<h3><strong>Question :</strong> Build the user-user similarity-based recommendation system (5 Marks)</h3>
+<ul>
+<li><p><strong>Initialize the KNNBasic model using sim_options provided, Verbose=False, and setting random_state=1 (1 Mark)</strong></p></li>
+<li><p><strong>Fit the model on the training data (1 Mark)</strong></p></li>
+<li><p><strong>Use the precision_recall_at_k function to calculate the metrics on the test data (1 Mark)</strong></p></li>
+<li><p><strong>Provide your observations on the output (2 Marks)</strong></p></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="81" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="vO3FL7iape8A" data-outputId="f9c8f89a-a5ce-4a6b-ad87-759342e25748" data-scrolled="false">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Declaring the similarity options</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>sim_options <span class="op">=</span> {<span class="st">&#39;name&#39;</span>: <span class="st">&#39;cosine&#39;</span>,</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>               <span class="st">&#39;user_based&#39;</span>: <span class="va">True</span>}</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize the KNNBasic model using sim_options provided, Verbose = False, and setting random_state = 1</span></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>sim_user_user <span class="op">=</span> KNNBasic(sim_options<span class="op">=</span>{<span class="st">&#39;name&#39;</span>:<span class="st">&#39;cosine&#39;</span>,<span class="st">&#39;user_based&#39;</span>:<span class="va">True</span>},verbose<span class="op">=</span><span class="va">False</span>,randon_state<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the model on the training data</span></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>sim_user_user.fit(trainset)</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Let us compute precision@k, recall@k, and f_1 score using the precision_recall_at_k function defined above</span></span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>precision_recall_at_k(sim_user_user)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>RMSE: 1.0012
+Precision:  0.855
+Recall:  0.858
+F_1 score:  0.856
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="nEuJK_A9Tsnn">
+<p><strong>Observations:__________</strong></p>
+<p>We observe that the model has a RMSE value of 1.0012 and F_1 score of 0.856</p>
+</div>
+<div class="cell markdown" id="reFD0-nsnVNC">
+<p>Let's now <strong>predict rating for a user with <code>userId=A3LDPF5FMB782Z</code> and <code>productId=1400501466</code></strong> as shown below. Here the user has already interacted or watched the product with productId '1400501466' and given a rating of 5 which is denoted by the parameter r_ui.</p>
+</div>
+<div class="cell code" data-execution_count="82" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Sxd23bZ9pe_x" data-outputId="09ba43be-e188-433f-9dce-3d441574a17f">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting rating for a sample user with an interacted product</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>sim_user_user.predict(<span class="st">&quot;A3LDPF5FMB782Z&quot;</span>, <span class="st">&quot;1400501466&quot;</span>, r_ui <span class="op">=</span> <span class="dv">5</span>, verbose <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A3LDPF5FMB782Z item: 1400501466 r_ui = 5.00   est = 3.40   {&#39;actual_k&#39;: 5, &#39;was_impossible&#39;: False}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="82">
+<pre><code>Prediction(uid=&#39;A3LDPF5FMB782Z&#39;, iid=&#39;1400501466&#39;, r_ui=5, est=3.4, details={&#39;actual_k&#39;: 5, &#39;was_impossible&#39;: False})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ENJcqG_wemRH">
+<ul>
+<li>The above output shows that <strong>the actual rating for this user-item pair is 5, and the predicted rating is 3.40</strong> by this <strong>user-user-similarity-based baseline model</strong>.</li>
+</ul>
+</div>
+<div class="cell markdown" id="cj6ecbglTsno">
+<p>Below is the <strong>list of users who have not seen the product with product id "1400501466"</strong>.</p>
+</div>
+<div class="cell code" data-execution_count="83" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="xCRBMD-RTsno" data-outputId="2d14c13f-a9af-4471-d401-85d9dfa0b13d">
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>df_final[df_final.prod_id <span class="op">==</span> <span class="st">&quot;1400501466&quot;</span>].user_id.unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="83">
+<pre><code>array([&#39;A3LDPF5FMB782Z&#39;, &#39;A1A5KUIIIHFF4U&#39;, &#39;A2XIOXRRYX0KZY&#39;,
+       &#39;AW3LX47IHPFRL&#39;, &#39;A1E3OB6QMBKRYZ&#39;, &#39;A19N3S7CBSU6O7&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="KT42ecaSTsno">
+<ul>
+<li>It can be observed from the above list that <strong>user "A34BZM6S9L7QI4" has not seen the product with productId "1400501466"</strong> as this user id is not a part of the above list.</li>
+</ul>
+</div>
+<div class="cell markdown" id="EXSgq8OEnVNE">
+<p>Below we are <strong>predicting rating for the same <code>userId=A34BZM6S9L7QI4</code> but for a product which this user has not seen yet i.e. <code>prod_id=1400501466</code></strong></p>
+</div>
+<div class="cell code" data-execution_count="84" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="PbFcBj1PpfEV" data-outputId="584aeb07-1158-4690-8dc7-90d25ac4ef2e">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting rating for a sample user with a non interacted product</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>sim_user_user.predict(<span class="st">&quot;A34BZM6S9L7QI4&quot;</span>, <span class="st">&quot;1400501466&quot;</span>, verbose <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A34BZM6S9L7QI4 item: 1400501466 r_ui = None   est = 4.29   {&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="84">
+<pre><code>Prediction(uid=&#39;A34BZM6S9L7QI4&#39;, iid=&#39;1400501466&#39;, r_ui=None, est=4.292024046561495, details={&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="02rwld8yemRI">
+<ul>
+<li>The <strong>predicted rating for this user is around 4.3</strong> based on this <strong>user-user similarity-based baseline model</strong>.</li>
+</ul>
+</div>
+<section id="improving-similarity-based-recommendation-system-by-tuning-its-hyperparameters" class="cell markdown" id="ejjof6csnVNF">
+<h3><strong>Improving similarity-based recommendation system by tuning its hyperparameters</strong></h3>
+</section>
+<div class="cell markdown" id="x_kxe-_JnVNF">
+<p>Below, we will be tuning hyperparameters for the <code>KNNBasic</code> algorithms. Let's try to understand some of the hyperparameters of the KNNBasic algorithm:</p>
+</div>
+<div class="cell markdown" id="p2j4VvfQnVNF">
+<ul>
+<li><strong>k</strong> (int) – The (max) number of neighbors to take into account for aggregation. Default is 40.</li>
+<li><strong>min_k</strong> (int) – The minimum number of neighbors to take into account for aggregation. If there are not enough neighbors, the prediction is set to the global mean of all ratings. Default is 1.</li>
+<li><strong>sim_options</strong> (dict) – A dictionary of options for the similarity measure. And there are four similarity measures available in surprise -
+<ul>
+<li>cosine</li>
+<li>msd (default)</li>
+<li>Pearson</li>
+<li>Pearson baseline</li>
+</ul></li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="85" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="9LmPbSUSTsnp" data-outputId="75a26283-1677-4890-f3a8-cab7b01c51a8">
+<div class="sourceCode" id="cb50"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting up parameter grid to tune the hyperparameters</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>param_grid <span class="op">=</span> {<span class="st">&#39;k&#39;</span>: [<span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>], <span class="st">&#39;min_k&#39;</span>: [<span class="dv">3</span>, <span class="dv">6</span>, <span class="dv">9</span>],</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;sim_options&#39;</span>: {<span class="st">&#39;name&#39;</span>: [<span class="st">&#39;msd&#39;</span>, <span class="st">&#39;cosine&#39;</span>],</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>                              <span class="st">&#39;user_based&#39;</span>: [<span class="va">True</span>]}</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>              }</span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Performing 3-fold cross-validation to tune the hyperparameters</span></span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a>gs <span class="op">=</span> GridSearchCV(KNNBasic, param_grid, measures <span class="op">=</span> [<span class="st">&#39;rmse&#39;</span>], cv <span class="op">=</span> <span class="dv">3</span>, n_jobs <span class="op">=</span> <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Fitting the data</span></span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a>gs.fit(data)</span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Best RMSE score</span></span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(gs.best_score[<span class="st">&#39;rmse&#39;</span>])</span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Combination of parameters that gave the best RMSE score</span></span>
+<span id="cb50-17"><a href="#cb50-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(gs.best_params[<span class="st">&#39;rmse&#39;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0.97198981035717
+{&#39;k&#39;: 40, &#39;min_k&#39;: 6, &#39;sim_options&#39;: {&#39;name&#39;: &#39;cosine&#39;, &#39;user_based&#39;: True}}
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="L2fHNvu7nVNF">
+<p>Once the grid search is <strong>complete</strong>, we can get the <strong>optimal values for each of those hyperparameters</strong> as shown above.</p>
+</div>
+<div class="cell markdown" id="NHWgxu_YnVNG">
+<p>Now, let's build the <strong>final model by using tuned values of the hyperparameters</strong>, which we received by using <strong>grid search cross-validation</strong>.</p>
+</div>
+<div class="cell code" data-execution_count="86" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="PujRJA8X_JEJ" data-outputId="ea139772-9c83-436f-9f46-d95955ec9a7f">
+<div class="sourceCode" id="cb52"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using the optimal similarity measure for user-user based collaborative filtering</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>sim_options <span class="op">=</span> {<span class="st">&#39;name&#39;</span>: <span class="st">&#39;cosine&#39;</span>,</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>               <span class="st">&#39;user_based&#39;</span>: <span class="va">True</span>}</span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating an instance of KNNBasic with optimal hyperparameter values</span></span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a>sim_user_user_optimized <span class="op">=</span> KNNBasic(sim_options <span class="op">=</span> sim_options, k <span class="op">=</span> <span class="dv">40</span>, min_k <span class="op">=</span> <span class="dv">6</span>, random_state <span class="op">=</span> <span class="dv">1</span>, verbose <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-8"><a href="#cb52-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Training the algorithm on the train set</span></span>
+<span id="cb52-9"><a href="#cb52-9" aria-hidden="true" tabindex="-1"></a>sim_user_user_optimized.fit(trainset)</span>
+<span id="cb52-10"><a href="#cb52-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-11"><a href="#cb52-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Let us compute precision@k and recall@k also with k =10</span></span>
+<span id="cb52-12"><a href="#cb52-12" aria-hidden="true" tabindex="-1"></a>precision_recall_at_k(sim_user_user_optimized)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>RMSE: 0.9526
+Precision:  0.847
+Recall:  0.894
+F_1 score:  0.87
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="yHsWvFjKTsnp">
+<ul>
+<li>We can observe that after tuning hyperparameters, <strong>F_1 score of the tuned model is 0.87, which is slightly better than the baseline model</strong>. Along with this, <strong>the RMSE of the model has gone down as compared to the model before hyperparameter tuning</strong>. Hence, we can say that the model performance has improved slightly after hyperparameter tuning.</li>
+</ul>
+</div>
+<div class="cell markdown" id="YhcAXK0CnVNG">
+<p>Let's now <strong>predict the rating for a user with <code>userId</code> = "A3LDPF5FMB782Z", and prod_id = 1400501466 with the optimized model as shown below</strong>.</p>
+</div>
+<section id="question" class="cell markdown" id="dAGllj78-8Jz">
+<h3><strong>Question:</strong></h3>
+<ul>
+<li><strong>Predict rating for the user with <code>userId</code>="A3LDPF5FMB782Z", and <code>prod_id</code>= 1400501466 using the optimized model (1 Mark)</strong></li>
+<li><strong>Predict rating for the same userId="A34BZM6S9L7QI4" but for a product with which this user has not interacted before, i.e., prod_id = 1400501466, by using the optimized model (1 Mark)</strong></li>
+<li><strong>Compare the output with the output from the baseline model (2 Marks)</strong></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="87" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="FgV63lHiq1TV" data-outputId="a64e571f-10b0-4755-f372-8f6ad014b778">
+<div class="sourceCode" id="cb54"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use sim_user_user_optimized model to recommend for userId &quot;A3LDPF5FMB782Z&quot; and productId 1400501466</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>sim_user_user_optimized.predict(<span class="st">&#39;A3LDPF5FMB782Z&#39;</span>,<span class="st">&#39;1400501466&#39;</span>,verbose<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A3LDPF5FMB782Z item: 1400501466 r_ui = None   est = 4.29   {&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="87">
+<pre><code>Prediction(uid=&#39;A3LDPF5FMB782Z&#39;, iid=&#39;1400501466&#39;, r_ui=None, est=4.292024046561495, details={&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;})</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="88" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="HXO2Ztjhq1bN" data-outputId="2693aa6a-9d60-46b8-9237-60a6ba5b2a90">
+<div class="sourceCode" id="cb57"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use sim_user_user_optimized model to recommend for userId &quot;A34BZM6S9L7QI4&quot; and productId &quot;1400501466&quot;</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>sim_user_user_optimized.predict(<span class="st">&#39;A34BZM6S9L7QI4&#39;</span>,<span class="st">&#39;1400501466&#39;</span>,verbose<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A34BZM6S9L7QI4 item: 1400501466 r_ui = None   est = 4.29   {&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="88">
+<pre><code>Prediction(uid=&#39;A34BZM6S9L7QI4&#39;, iid=&#39;1400501466&#39;, r_ui=None, est=4.292024046561495, details={&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="s5i-OPprNF2e">
+<p><strong>Observations:</strong>____________</p>
+<p>we can observe that the prediction rating is similar to both the models with rating of around 4.3.</p>
+</div>
+<section id="identifying-similar-users-to-a-given-user-nearest-neighbors" class="cell markdown" id="op_zwO_FnVNH">
+<h3><strong>Identifying similar Users to a given User (nearest neighbors)</strong></h3>
+</section>
+<div class="cell markdown" id="o2QsfqhanVNH">
+<p>We can also find out <strong>similar users to a given user</strong> or its <strong>nearest neighbors</strong> based on this KNNBasic algorithm. Below, we are finding the 5 most similar users to the first user in the list with internal id 0, based on the <code>msd</code> distance metric.</p>
+</div>
+<div class="cell code" data-execution_count="89" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="TbFle7cKmBJG" data-outputId="799ddb8a-7c95-4efd-864b-cadf6de98367">
+<div class="sourceCode" id="cb60"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Here, 0 is the inner id of the above user</span></span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>sim_user_user_optimized.get_neighbors(<span class="dv">0</span>, <span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="89">
+<pre><code>[6, 7, 17, 26, 32]</code></pre>
+</div>
+</div>
+<section id="implementing-the-recommendation-algorithm-based-on-optimized-knnbasic-model" class="cell markdown" id="Z0NsrX_anVNH">
+<h3><strong>Implementing the recommendation algorithm based on optimized KNNBasic model</strong></h3>
+</section>
+<div class="cell markdown" id="U3ESobDynVNI">
+<p>Below we will be implementing a function where the input parameters are:</p>
+<ul>
+<li>data: A <strong>rating</strong> dataset</li>
+<li>user_id: A user id <strong>against which we want the recommendations</strong></li>
+<li>top_n: The <strong>number of products we want to recommend</strong></li>
+<li>algo: the algorithm we want to use <strong>for predicting the ratings</strong></li>
+<li>The output of the function is a <strong>set of top_n items</strong> recommended for the given user_id based on the given algorithm</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="90" id="vW9V1Tk65HlY">
+<div class="sourceCode" id="cb62"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_recommendations(data, user_id, top_n, algo):</span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Creating an empty list to store the recommended product ids</span></span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a>    recommendations <span class="op">=</span> []</span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Creating an user item interactions matrix </span></span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a>    user_item_interactions_matrix <span class="op">=</span> data.pivot(index <span class="op">=</span> <span class="st">&#39;user_id&#39;</span>, columns <span class="op">=</span> <span class="st">&#39;prod_id&#39;</span>, values <span class="op">=</span> <span class="st">&#39;rating&#39;</span>)</span>
+<span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb62-9"><a href="#cb62-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Extracting those product ids which the user_id has not interacted yet</span></span>
+<span id="cb62-10"><a href="#cb62-10" aria-hidden="true" tabindex="-1"></a>    non_interacted_products <span class="op">=</span> user_item_interactions_matrix.loc[user_id][user_item_interactions_matrix.loc[user_id].isnull()].index.tolist()</span>
+<span id="cb62-11"><a href="#cb62-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb62-12"><a href="#cb62-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Looping through each of the product ids which user_id has not interacted yet</span></span>
+<span id="cb62-13"><a href="#cb62-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> item_id <span class="kw">in</span> non_interacted_products:</span>
+<span id="cb62-14"><a href="#cb62-14" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb62-15"><a href="#cb62-15" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Predicting the ratings for those non interacted product ids by this user</span></span>
+<span id="cb62-16"><a href="#cb62-16" aria-hidden="true" tabindex="-1"></a>        est <span class="op">=</span> algo.predict(user_id, item_id).est</span>
+<span id="cb62-17"><a href="#cb62-17" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb62-18"><a href="#cb62-18" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Appending the predicted ratings</span></span>
+<span id="cb62-19"><a href="#cb62-19" aria-hidden="true" tabindex="-1"></a>        recommendations.append((item_id, est))</span>
+<span id="cb62-20"><a href="#cb62-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-21"><a href="#cb62-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Sorting the predicted ratings in descending order</span></span>
+<span id="cb62-22"><a href="#cb62-22" aria-hidden="true" tabindex="-1"></a>    recommendations.sort(key <span class="op">=</span> <span class="kw">lambda</span> x: x[<span class="dv">1</span>], reverse <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb62-23"><a href="#cb62-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-24"><a href="#cb62-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> recommendations[:top_n] <span class="co"># Returing top n highest predicted rating products for this user</span></span></code></pre></div>
+</div>
+<section id="predicting-top-5-products-for-userid--a3ldpf5fmb782z-with-similarity-based-recommendation-system" class="cell markdown" id="Oj_S7kh4nVNI">
+<h4><strong>Predicting top 5 products for userId = "A3LDPF5FMB782Z" with similarity based recommendation system</strong></h4>
+</section>
+<div class="cell code" data-execution_count="91" id="qWbR85mI5Hrk">
+<div class="sourceCode" id="cb63"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Making top 5 recommendations for user_id &quot;A3LDPF5FMB782Z&quot; with a similarity-based recommendation engine</span></span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>recommendations <span class="op">=</span> get_recommendations(df_final, <span class="st">&quot;A3LDPF5FMB782Z&quot;</span>, <span class="dv">5</span>, sim_user_user_optimized)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="92" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="b5WfIX0Z6_q2" data-outputId="0b702860-cbf5-41d0-ac81-0f70910a1216">
+<div class="sourceCode" id="cb64"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Building the dataframe for above recommendations with columns &quot;prod_id&quot; and &quot;predicted_ratings&quot;</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(recommendations, columns <span class="op">=</span> [<span class="st">&#39;prod_id&#39;</span>, <span class="st">&#39;predicted_ratings&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="92">
+
+  <div id="df-3a91094f-157b-4059-8a26-f0a7e66af52a">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>prod_id</th>
+      <th>predicted_ratings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>B000067RT6</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B000BQ7GW8</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>B001TH7GUU</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>B005ES0YYA</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>B00834SJSK</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-3a91094f-157b-4059-8a26-f0a7e66af52a')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-3a91094f-157b-4059-8a26-f0a7e66af52a button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-3a91094f-157b-4059-8a26-f0a7e66af52a');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="correcting-the-ratings-and-ranking-the-above-products" class="cell markdown" id="ghwEJY2e7INB">
+<h3><strong>Correcting the Ratings and Ranking the above products</strong></h3>
+</section>
+<div class="cell markdown" id="tHi5pfJgTsnr">
+<p>While comparing the ratings of two products, it is not only the <strong>ratings</strong> that describe the <strong>likelihood of the user to that product</strong>. Along with the rating, the <strong>number of users who have seen that product</strong> also becomes important to consider. Due to this, we have calculated the <strong>"corrected_ratings"</strong> for each product. Commonly higher the <strong>"rating_count" of a product more it is liked by users</strong>. To interpret the above concept, a <strong>product rated 4 with rating_count 3 is less liked in comparison to a product rated 3 with a rating count of 50</strong>. It has been <strong>empirically found that the likelihood of the product is directly proportional to the inverse of the square root of the rating_count of the product</strong>.</p>
+</div>
+<div class="cell code" data-execution_count="93" id="39Hs7ZbO9v3O">
+<div class="sourceCode" id="cb65"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ranking_products(recommendations,final_rating):</span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Sort the products based on ratings count</span></span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a>  ranked_products <span class="op">=</span> final_rating.loc[[items[<span class="dv">0</span>] <span class="cf">for</span> items <span class="kw">in</span> recommendations]].sort_values(<span class="st">&#39;rating_count&#39;</span>, ascending <span class="op">=</span> <span class="va">False</span>)[[<span class="st">&#39;rating_count&#39;</span>]].reset_index()</span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Merge with the recommended products to get predicted ratings</span></span>
+<span id="cb65-6"><a href="#cb65-6" aria-hidden="true" tabindex="-1"></a>  ranked_products <span class="op">=</span> ranked_products.merge(pd.DataFrame(recommendations, columns <span class="op">=</span> [<span class="st">&#39;prod_id&#39;</span>, <span class="st">&#39;predicted_ratings&#39;</span>]), on <span class="op">=</span> <span class="st">&#39;prod_id&#39;</span>, how <span class="op">=</span> <span class="st">&#39;inner&#39;</span>)</span>
+<span id="cb65-7"><a href="#cb65-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-8"><a href="#cb65-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Rank the products based on corrected ratings</span></span>
+<span id="cb65-9"><a href="#cb65-9" aria-hidden="true" tabindex="-1"></a>  ranked_products[<span class="st">&#39;corrected_ratings&#39;</span>] <span class="op">=</span> ranked_products[<span class="st">&#39;predicted_ratings&#39;</span>] <span class="op">-</span> <span class="dv">1</span> <span class="op">/</span> np.sqrt(ranked_products[<span class="st">&#39;rating_count&#39;</span>])</span>
+<span id="cb65-10"><a href="#cb65-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-11"><a href="#cb65-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Sort the products based on corrected ratings</span></span>
+<span id="cb65-12"><a href="#cb65-12" aria-hidden="true" tabindex="-1"></a>  ranked_products <span class="op">=</span> ranked_products.sort_values(<span class="st">&#39;corrected_ratings&#39;</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb65-13"><a href="#cb65-13" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb65-14"><a href="#cb65-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> ranked_products</span></code></pre></div>
+</div>
+<div class="cell markdown" id="rvPNIt6i89DY">
+<p><strong>Note:</strong> In the <strong>above-corrected rating formula</strong>, we can add the <strong>quantity <code>1/np.sqrt(n)</code> instead of subtracting it to get more optimistic predictions</strong>. But here we are <strong>subtracting this quantity</strong>, as there are some products with ratings 5 and <strong>we can't have a rating more than 5 for a product</strong>.</p>
+</div>
+<div class="cell code" data-execution_count="94" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="xoiAL_vH8miC" data-outputId="f687d87a-d6c5-429b-c9d8-06aa1501e729">
+<div class="sourceCode" id="cb66"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Applying the ranking products function and sorting it based on corrected ratings</span></span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>ranking_products(recommendations, final_rating)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="94">
+
+  <div id="df-af03d4d4-4e01-41e9-bd4a-ba31df4df96c">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>prod_id</th>
+      <th>rating_count</th>
+      <th>predicted_ratings</th>
+      <th>corrected_ratings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>B00834SJSK</td>
+      <td>101</td>
+      <td>5</td>
+      <td>4.900496</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B001TH7GUU</td>
+      <td>78</td>
+      <td>5</td>
+      <td>4.886772</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>B000BQ7GW8</td>
+      <td>54</td>
+      <td>5</td>
+      <td>4.863917</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>B000067RT6</td>
+      <td>41</td>
+      <td>5</td>
+      <td>4.843826</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>B005ES0YYA</td>
+      <td>26</td>
+      <td>5</td>
+      <td>4.803884</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-af03d4d4-4e01-41e9-bd4a-ba31df4df96c')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-af03d4d4-4e01-41e9-bd4a-ba31df4df96c button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-af03d4d4-4e01-41e9-bd4a-ba31df4df96c');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="item-item-similarity-based-collaborative-filtering-recommendation-systems" class="cell markdown" id="QgbzJKk7Tsnr">
+<h3>Item-Item Similarity-based collaborative filtering recommendation systems</h3>
+</section>
+<div class="cell markdown" id="qTJu_2hcTsnr">
+<ul>
+<li>Above we have seen <strong>similarity-based collaborative filtering</strong> where similarity is calculated <strong>between users</strong>. Now let us look into similarity-based collaborative filtering where similarity is seen <strong>between items</strong>.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="95" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="W5RMcdzjTsns" data-outputId="ec11a85f-0fa3-4fbf-fdce-8f66a14f53c0" data-scrolled="false">
+<div class="sourceCode" id="cb67"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Declaring the similarity options</span></span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a>sim_options <span class="op">=</span> {<span class="st">&#39;name&#39;</span>: <span class="st">&#39;cosine&#39;</span>,</span>
+<span id="cb67-3"><a href="#cb67-3" aria-hidden="true" tabindex="-1"></a>               <span class="st">&#39;user_based&#39;</span>: <span class="va">False</span>}</span>
+<span id="cb67-4"><a href="#cb67-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-5"><a href="#cb67-5" aria-hidden="true" tabindex="-1"></a><span class="co"># KNN algorithm is used to find desired similar items</span></span>
+<span id="cb67-6"><a href="#cb67-6" aria-hidden="true" tabindex="-1"></a>sim_item_item <span class="op">=</span> KNNBasic(sim_options <span class="op">=</span> sim_options, random_state <span class="op">=</span> <span class="dv">1</span>, verbose <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb67-7"><a href="#cb67-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-8"><a href="#cb67-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the algorithm on the train set, and predict ratings for the test set</span></span>
+<span id="cb67-9"><a href="#cb67-9" aria-hidden="true" tabindex="-1"></a>sim_item_item.fit(trainset)</span>
+<span id="cb67-10"><a href="#cb67-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-11"><a href="#cb67-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Let us compute precision@k, recall@k, and f_1 score with k = 10</span></span>
+<span id="cb67-12"><a href="#cb67-12" aria-hidden="true" tabindex="-1"></a>precision_recall_at_k(sim_item_item)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>RMSE: 0.9950
+Precision:  0.838
+Recall:  0.845
+F_1 score:  0.841
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ni9LoeUVTsns">
+<ul>
+<li>The baseline model is giving a good F_1 score of ~ 84%. We will try to <strong>improve this later by using GridSearchCV</strong> by tuning different hyperparameters of this algorithm.</li>
+</ul>
+</div>
+<div class="cell markdown" id="jFbcDQmxTsns">
+<p>Let's now <strong>predict a rating for a user with <code>userId = A3LDPF5FMB782Z</code> and <code>prod_Id = 1400501466</code></strong> as shown below. Here the user has already interacted or watched the product with productId "1400501466".</p>
+</div>
+<div class="cell code" data-execution_count="96" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="JsF-aaWYTsns" data-outputId="2b161718-223f-4eaf-ca8c-491401941bec">
+<div class="sourceCode" id="cb69"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting rating for a sample user with an interacted product</span></span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>sim_item_item.predict(<span class="st">&quot;A3LDPF5FMB782Z&quot;</span>, <span class="st">&quot;1400501466&quot;</span>, r_ui <span class="op">=</span> <span class="dv">5</span>, verbose <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A3LDPF5FMB782Z item: 1400501466 r_ui = 5.00   est = 4.27   {&#39;actual_k&#39;: 22, &#39;was_impossible&#39;: False}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="96">
+<pre><code>Prediction(uid=&#39;A3LDPF5FMB782Z&#39;, iid=&#39;1400501466&#39;, r_ui=5, est=4.2727272727272725, details={&#39;actual_k&#39;: 22, &#39;was_impossible&#39;: False})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="2h0OyDMFTsns">
+<ul>
+<li>The above output shows that <strong>the actual rating for this user-item pair is 5 and the predicted rating is 4.27</strong> by this <strong>item-item-similarity-based baseline model</strong>.</li>
+</ul>
+</div>
+<div class="cell markdown" id="BqKGZoAtTsns">
+<p>Below we are <strong>predicting rating for the same <code>userId = A34BZM6S9L7QI4</code> but for a product with which this user has not interacted yet, i.e., <code>prod_id = 1400501466</code></strong>.</p>
+</div>
+<div class="cell code" data-execution_count="97" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="5yILOxXRTsns" data-outputId="b33ea236-cd21-4343-d588-63729d3da3cf">
+<div class="sourceCode" id="cb72"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting rating for a sample user with a non interacted product</span></span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>sim_item_item.predict(<span class="st">&quot;A34BZM6S9L7QI4&quot;</span>, <span class="st">&quot;1400501466&quot;</span>, verbose <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A34BZM6S9L7QI4 item: 1400501466 r_ui = None   est = 4.29   {&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="97">
+<pre><code>Prediction(uid=&#39;A34BZM6S9L7QI4&#39;, iid=&#39;1400501466&#39;, r_ui=None, est=4.292024046561495, details={&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="sDKaAveJTsns">
+<p>As we can see the <strong>predicted rating for this user-item pair is good (around 4.3)</strong> based on this <strong>item-item similarity-based baseline model</strong>.</p>
+</div>
+<section id="improving-similarity-based-recommendation-system-by-tuning-its-hyperparameters" class="cell markdown" id="1te2X2MHTsns">
+<h4>Improving similarity-based recommendation system by tuning its hyperparameters</h4>
+</section>
+<div class="cell markdown" id="J3WpEMvgTsns">
+<p>Below we will be <strong>tuning hyperparameters for the <code>KNNBasic</code> algorithms</strong>.</p>
+</div>
+<section id="question-hyperparameter-tuning-the-item-item-similarity-based-model-6-marks" class="cell markdown" id="meSvpNLj_EjD">
+<h3>Question: Hyperparameter tuning the item-item similarity-based model. (6 marks)</h3>
+<ul>
+<li>Use the following values for the param_grid and tune the model. (3 Marks)
+<ul>
+<li>'k': [10, 20, 30]</li>
+<li>'min_k': [3, 6, 9]</li>
+<li>'sim_options': {'name': ['msd', 'cosine']</li>
+<li>'user_based': [False]</li>
+</ul></li>
+<li>Use GridSearchCV() to tune the model using the 'rmse' measure (2 Marks)</li>
+<li>Print the best score and best parameters (1 Mark)</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="99" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="f5bcZ3HgTsnt" data-outputId="35456f14-3874-4603-c2b6-acbd3f299eb3">
+<div class="sourceCode" id="cb75"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting up parameter grid to tune the hyperparameters</span></span>
+<span id="cb75-2"><a href="#cb75-2" aria-hidden="true" tabindex="-1"></a>param_grid <span class="op">=</span> {<span class="st">&#39;k&#39;</span>:[<span class="dv">10</span>,<span class="dv">20</span>,<span class="dv">30</span>],<span class="st">&#39;min_k&#39;</span>:[<span class="dv">3</span>,<span class="dv">6</span>,<span class="dv">9</span>],<span class="st">&#39;sim_options&#39;</span>:{<span class="st">&#39;name&#39;</span>:[<span class="st">&#39;msd&#39;</span>,<span class="st">&#39;cosine&#39;</span>]},<span class="st">&#39;user_based&#39;</span>:[<span class="va">False</span>]}</span>
+<span id="cb75-3"><a href="#cb75-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb75-4"><a href="#cb75-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Performing 3-fold cross validation to tune the hyperparameters</span></span>
+<span id="cb75-5"><a href="#cb75-5" aria-hidden="true" tabindex="-1"></a>gs <span class="op">=</span> GridSearchCV(KNNBasic,param_grid,measures<span class="op">=</span>[<span class="st">&#39;rmse&#39;</span>],cv<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb75-6"><a href="#cb75-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb75-7"><a href="#cb75-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Fitting the data</span></span>
+<span id="cb75-8"><a href="#cb75-8" aria-hidden="true" tabindex="-1"></a>gs.fit(data)</span>
+<span id="cb75-9"><a href="#cb75-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb75-10"><a href="#cb75-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the best RMSE score</span></span>
+<span id="cb75-11"><a href="#cb75-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(gs.best_score[<span class="st">&#39;rmse&#39;</span>])</span>
+<span id="cb75-12"><a href="#cb75-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb75-13"><a href="#cb75-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the combination of parameters that gave the best RMSE score</span></span>
+<span id="cb75-14"><a href="#cb75-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(gs.best_params[<span class="st">&#39;rmse&#39;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+0.9701363649653866
+{&#39;k&#39;: 30, &#39;min_k&#39;: 6, &#39;sim_options&#39;: {&#39;name&#39;: &#39;cosine&#39;, &#39;user_based&#39;: True}, &#39;user_based&#39;: False}
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="1psOlx6zTsnt">
+<p>Once the <strong>grid search</strong> is complete, we can get the <strong>optimal values for each of those hyperparameters as shown above.</strong></p>
+</div>
+<div class="cell markdown" id="JrSTaQemTsnt">
+<p>Now let's build the <strong>final model</strong> by using <strong>tuned values of the hyperparameters</strong> which we received by using grid search cross-validation.</p>
+</div>
+<section id="question-use-the-best-parameters-from-gridsearchcv-to-build-the-optimized-item-item-similarity-based-model-compare-the-performance-of-the-optimized-model-with-the-baseline-model-5-marks" class="cell markdown" id="kOS9Dwnd_LN6">
+<h3>Question: Use the best parameters from GridSearchCV to build the optimized item-item similarity-based model. Compare the performance of the optimized model with the baseline model. (5 Marks)</h3>
+</section>
+<div class="cell code" data-execution_count="102" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="dSeiM1qeTsnt" data-outputId="d4e8d992-5539-4eda-d9ab-351415e0319a">
+<div class="sourceCode" id="cb77"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using the optimal similarity measure for item-item based collaborative filtering</span></span>
+<span id="cb77-2"><a href="#cb77-2" aria-hidden="true" tabindex="-1"></a>sim_options <span class="op">=</span> {<span class="st">&#39;k&#39;</span>:<span class="dv">30</span>,<span class="st">&#39;min_k&#39;</span>:<span class="dv">6</span>,<span class="st">&#39;sim_options&#39;</span>:{<span class="st">&#39;name&#39;</span>:<span class="st">&#39;cosine&#39;</span>,<span class="st">&#39;user_based&#39;</span>:<span class="va">True</span>}}</span>
+<span id="cb77-3"><a href="#cb77-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb77-4"><a href="#cb77-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating an instance of KNNBasic with optimal hyperparameter values</span></span>
+<span id="cb77-5"><a href="#cb77-5" aria-hidden="true" tabindex="-1"></a>sim_item_item_optimized <span class="op">=</span> KNNBasic(k<span class="op">=</span><span class="dv">0</span> , min_k<span class="op">=</span><span class="dv">6</span> , sim_options<span class="op">=</span>{<span class="st">&#39;name&#39;</span>:<span class="st">&#39;cosine&#39;</span>,<span class="st">&#39;user_based&#39;</span>:<span class="va">True</span>},user_based<span class="op">=</span><span class="va">True</span> , random_state <span class="op">=</span> <span class="dv">1</span>, verbose <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb77-6"><a href="#cb77-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb77-7"><a href="#cb77-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Training the algorithm on the train set</span></span>
+<span id="cb77-8"><a href="#cb77-8" aria-hidden="true" tabindex="-1"></a>sim_item_item_optimized.fit(trainset)</span>
+<span id="cb77-9"><a href="#cb77-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb77-10"><a href="#cb77-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Let us compute precision@k and recall@k, f1_score and RMSE</span></span>
+<span id="cb77-11"><a href="#cb77-11" aria-hidden="true" tabindex="-1"></a>precision_recall_at_k(sim_item_item_optimized)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>RMSE: 0.9783
+Precision:  0.833
+Recall:  0.891
+F_1 score:  0.861
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ZCXKnMI8Tsnt">
+<p><strong>Observations:__________</strong></p>
+<p>Compared base model F_1 score of optimized model is 2% higher which is 86%, and RMSE has redused by 0.0167.</p>
+</div>
+<div class="cell markdown" id="Sbcj_H94Tsnt">
+<p>Let's us now predict <strong>rating for an user with <code>userId = A3LDPF5FMB782Z</code> and for <code>prod_id = 1400501466</code></strong> with the <strong>optimized model</strong> as shown below:</p>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="gIBRRvdoTsnt" data-outputId="62c043fe-d37e-44aa-b954-7c86586a5295">
+<div class="sourceCode" id="cb79"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a>sim_item_item_optimized.predict(<span class="st">&quot;A3LDPF5FMB782Z&quot;</span>, <span class="st">&quot;1400501466&quot;</span>, r_ui <span class="op">=</span> <span class="dv">5</span>, verbose <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A3LDPF5FMB782Z item: 1400501466 r_ui = 5.00   est = 4.71   {&#39;actual_k&#39;: 20, &#39;was_impossible&#39;: False}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="46">
+<pre><code>Prediction(uid=&#39;A3LDPF5FMB782Z&#39;, iid=&#39;1400501466&#39;, r_ui=5, est=4.7105263157894735, details={&#39;actual_k&#39;: 20, &#39;was_impossible&#39;: False})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="QDxekjDKTsnu">
+<p>Below we are <strong>predicting rating</strong> for the same <strong><code>userId = A34BZM6S9L7QI4</code></strong> but for a product with which this user <strong>has not interacted before</strong>, i.e., <code>prod_id == 1400501466</code>, by using the optimized model as shown below:</p>
+</div>
+<div class="cell code" data-execution_count="103" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="LNEgcI9PTsnu" data-outputId="71504ec1-7091-4f3e-ca3b-7c2eab27f1c9">
+<div class="sourceCode" id="cb82"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a>sim_item_item_optimized.predict(<span class="st">&quot;A34BZM6S9L7QI4&quot;</span>, <span class="st">&quot;1400501466&quot;</span>, verbose <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A34BZM6S9L7QI4 item: 1400501466 r_ui = None   est = 4.29   {&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="103">
+<pre><code>Prediction(uid=&#39;A34BZM6S9L7QI4&#39;, iid=&#39;1400501466&#39;, r_ui=None, est=4.292024046561495, details={&#39;was_impossible&#39;: True, &#39;reason&#39;: &#39;Not enough neighbors.&#39;})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="J79LG4R0Tsnu">
+<ul>
+<li>For an unknown product the model is predicting a rating of <strong>4.29</strong>.</li>
+</ul>
+</div>
+<section id="identifying-similar-items-to-a-given-item-nearest-neighbors" class="cell markdown" id="MDlNB7tnTsnu">
+<h4>Identifying similar items to a given item (nearest neighbors)</h4>
+</section>
+<div class="cell markdown" id="RLdDiFA6Tsnu">
+<p>We can also find out <strong>similar items</strong> to a given item or its nearest neighbors based on this <strong>KNNBasic algorithm</strong>. Below we are finding the 5 most similar items to the item with internal id 0 based on the <code>msd</code> distance metric.</p>
+</div>
+<div class="cell code" data-execution_count="104" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ZRJS4oDFTsnu" data-outputId="4423bd19-33c0-4cd0-bb69-fdf164760a45">
+<div class="sourceCode" id="cb85"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a>sim_item_item_optimized.get_neighbors(<span class="dv">0</span>, k <span class="op">=</span> <span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="104">
+<pre><code>[6, 7, 17, 26, 32]</code></pre>
+</div>
+</div>
+<section id="predicted-top-5-products-for-userid--a1a5kuiiihff4u-with-similarity-based-recommendation-system" class="cell markdown" id="cgREPkBbTsnu">
+<h4>Predicted top 5 products for userId = "A1A5KUIIIHFF4U" with similarity based recommendation system.</h4>
+</section>
+<div class="cell code" data-execution_count="105" id="rzoEbuZFTsnu">
+<div class="sourceCode" id="cb87"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Making top 5 recommendations for user_id A1A5KUIIIHFF4U with similarity-based recommendation engine.</span></span>
+<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a>recommendations <span class="op">=</span> get_recommendations(df_final, <span class="st">&quot;A1A5KUIIIHFF4U&quot;</span>, <span class="dv">5</span>, sim_item_item_optimized)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="106" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="_kXVTiysTsnv" data-outputId="eb6e30d6-8aee-4ef7-9746-c8444fddbbf7">
+<div class="sourceCode" id="cb88"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Building the dataframe for above recommendations with columns &quot;prod_id&quot; and &quot;predicted_ratings&quot;</span></span>
+<span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(recommendations, columns <span class="op">=</span> [<span class="st">&#39;prod_id&#39;</span>, <span class="st">&#39;predicted_ratings&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="106">
+
+  <div id="df-1b7bfe95-310e-4ca1-89a2-64d46c2c67df">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>prod_id</th>
+      <th>predicted_ratings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1400532655</td>
+      <td>4.292024</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1400599997</td>
+      <td>4.292024</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9983891212</td>
+      <td>4.292024</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>B00000DM9W</td>
+      <td>4.292024</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>B00000J1V5</td>
+      <td>4.292024</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-1b7bfe95-310e-4ca1-89a2-64d46c2c67df')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-1b7bfe95-310e-4ca1-89a2-64d46c2c67df button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-1b7bfe95-310e-4ca1-89a2-64d46c2c67df');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="107" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="7gewfmTATsnv" data-outputId="d2087c1b-fc61-4b67-f7fc-855d3d35f9f6">
+<div class="sourceCode" id="cb89"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Applying the ranking products function and sorting it based on the corrected ratings </span></span>
+<span id="cb89-2"><a href="#cb89-2" aria-hidden="true" tabindex="-1"></a>ranking_products(recommendations, final_rating)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="107">
+
+  <div id="df-79d13b7b-f35b-4053-a6b2-b191c7dfb7b5">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>prod_id</th>
+      <th>rating_count</th>
+      <th>predicted_ratings</th>
+      <th>corrected_ratings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>9983891212</td>
+      <td>8</td>
+      <td>4.292024</td>
+      <td>3.938471</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B00000J1V5</td>
+      <td>7</td>
+      <td>4.292024</td>
+      <td>3.914060</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1400532655</td>
+      <td>6</td>
+      <td>4.292024</td>
+      <td>3.883776</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1400599997</td>
+      <td>5</td>
+      <td>4.292024</td>
+      <td>3.844810</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>B00000DM9W</td>
+      <td>5</td>
+      <td>4.292024</td>
+      <td>3.844810</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-79d13b7b-f35b-4053-a6b2-b191c7dfb7b5')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-79d13b7b-f35b-4053-a6b2-b191c7dfb7b5 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-79d13b7b-f35b-4053-a6b2-b191c7dfb7b5');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="DHzmYvs0Tsnv">
+<ul>
+<li>Now as we have seen <strong>similarity-based collaborative filtering algorithms</strong>, let us now get into <strong>model-based collaborative filtering algorithms</strong>.</li>
+</ul>
+</div>
+<section id="model-3-matrix-factorization" class="cell markdown" id="rKgJpSA9vOOL">
+<h3>Model 3: Matrix Factorization</h3>
+</section>
+<div class="cell markdown" id="YF6ZGyqhCAob">
+<p>Model-based Collaborative Filtering is a <strong>personalized recommendation system</strong>, the recommendations are based on the past behavior of the user and it is not dependent on any additional information. We use <strong>latent features</strong> to find recommendations for each user.</p>
+</div>
+<section id="singular-value-decomposition-svd" class="cell markdown" id="n4Otha8ovOOL">
+<h3>Singular Value Decomposition (SVD)</h3>
+</section>
+<div class="cell markdown" id="3sGl3QkLvOOL">
+<p>SVD is used to <strong>compute the latent features</strong> from the <strong>user-item matrix</strong>. But SVD does not work when we <strong>miss values</strong> in the <strong>user-item matrix</strong>.</p>
+</div>
+<section id="question-build-the-matrix-factorization-recommendation-system-using-random_state--1-and-provide-your-observations-on-the-performance-of-the-model-4-marks" class="cell markdown" id="uOtkUXmAnVNL">
+<h3>Question: Build the matrix factorization recommendation system (using random_state = 1) and provide your observations on the performance of the model. (4 Marks)</h3>
+</section>
+<div class="cell code" data-execution_count="108" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="07-2PT5Ssjqm" data-outputId="7614abe9-cb31-4c4a-b365-44e9e8f8b5be">
+<div class="sourceCode" id="cb90"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb90-1"><a href="#cb90-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using SVD matrix factorization</span></span>
+<span id="cb90-2"><a href="#cb90-2" aria-hidden="true" tabindex="-1"></a>svd <span class="op">=</span> SVD(random_state<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb90-3"><a href="#cb90-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb90-4"><a href="#cb90-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Training the algorithm on the train set</span></span>
+<span id="cb90-5"><a href="#cb90-5" aria-hidden="true" tabindex="-1"></a>svd.fit(trainset)</span>
+<span id="cb90-6"><a href="#cb90-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb90-7"><a href="#cb90-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Use the function precision_recall_at_k to compute precision@k, recall@k, F1-Score, and RMSE</span></span>
+<span id="cb90-8"><a href="#cb90-8" aria-hidden="true" tabindex="-1"></a>precision_recall_at_k(svd)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>RMSE: 0.8882
+Precision:  0.853
+Recall:  0.88
+F_1 score:  0.866
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="BQ6fTuCDnVNL">
+<p><strong>Observations:___________</strong></p>
+<p>the observed F1 score is 0.866/86.6% and RMSE is 0.8882/88.82%.</p>
+<hr />
+</div>
+<div class="cell markdown" id="HD2AU1DnnVNM">
+<ul>
+<li>Let's now predict the rating for a user with <code>userId = "A3LDPF5FMB782Z"</code> and <code>prod_id = "1400501466</code> as shown below.</li>
+<li>Here, the user has already rated the product.</li>
+</ul>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="yWIhfdxXsjqm" data-outputId="4bec7d77-64d1-4d4f-ff4d-3d3886452574">
+<div class="sourceCode" id="cb92"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Making prediction</span></span>
+<span id="cb92-2"><a href="#cb92-2" aria-hidden="true" tabindex="-1"></a>svd.predict(<span class="st">&quot;A3LDPF5FMB782Z&quot;</span>, <span class="st">&quot;1400501466&quot;</span>, r_ui <span class="op">=</span> <span class="dv">5</span>, verbose <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A3LDPF5FMB782Z item: 1400501466 r_ui = 5.00   est = 4.08   {&#39;was_impossible&#39;: False}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="53">
+<pre><code>Prediction(uid=&#39;A3LDPF5FMB782Z&#39;, iid=&#39;1400501466&#39;, r_ui=5, est=4.081406749810685, details={&#39;was_impossible&#39;: False})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="oIjzqDY5nVNM">
+<p>As we can observe, <strong>the actual rating</strong> for this user-item pair is 5, and the predicted rating is <strong>4.08</strong> by this matrix <strong>factorization-based baseline model</strong>. It seems like we have under-estimated the rating. We will try to fix this later by <strong>tuning the hyperparameters</strong> of the model using GridSearchCV.</p>
+</div>
+<div class="cell markdown" id="I1aYxVeMnVNM">
+<p>Below we are predicting rating for the same <code>userId = A34BZM6S9L7QI4</code> but for a product with which this user has not interacted before, i.e., <code>productId = 1400501466</code>, as shown below:</p>
+</div>
+<div class="cell code" data-execution_count="109" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="APm-uMSvcAMf" data-outputId="3eca51dd-b43d-4519-cad7-6534188e04ba">
+<div class="sourceCode" id="cb95"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb95-1"><a href="#cb95-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Making prediction</span></span>
+<span id="cb95-2"><a href="#cb95-2" aria-hidden="true" tabindex="-1"></a>svd.predict(<span class="st">&quot;A34BZM6S9L7QI4&quot;</span>, <span class="st">&quot;1400501466&quot;</span>, verbose <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>user: A34BZM6S9L7QI4 item: 1400501466 r_ui = None   est = 4.40   {&#39;was_impossible&#39;: False}
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="109">
+<pre><code>Prediction(uid=&#39;A34BZM6S9L7QI4&#39;, iid=&#39;1400501466&#39;, r_ui=None, est=4.40037568046934, details={&#39;was_impossible&#39;: False})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="NEL6dy3wnVNM">
+<p>We can see that the <strong>estimated rating</strong> for this <strong>user-item pair</strong> is 4.40 based on this <strong>matrix factorization based baseline model</strong>.</p>
+</div>
+<section id="improving-matrix-factorization-based-recommendation-system-by-tuning-its-hyperparameters" class="cell markdown" id="x13Eb9Owvpcw">
+<h4>Improving matrix factorization based recommendation system by tuning its hyperparameters</h4>
+</section>
+<div class="cell markdown" id="qbd3L1d2nVNM">
+<p>In SVD, rating is predicted as:</p>
+</div>
+<div class="cell markdown" id="Wp38lmEqnVNM">
+<p><span class="math display"><em>r̂</em><sub><em>u</em><em>i</em></sub> = <em>μ</em> + <em>b</em><sub><em>u</em></sub> + <em>b</em><sub><em>i</em></sub> + <em>q</em><sub><em>i</em></sub><sup><em>T</em></sup><em>p</em><sub><em>u</em></sub></span></p>
+</div>
+<div class="cell markdown" id="bHVAYuFznVNN">
+<p>If user <span class="math inline"><em>u</em></span> is unknown, then the bias <span class="math inline"><em>b</em><sub><em>u</em></sub></span> and the factors <span class="math inline"><em>p</em><sub><em>u</em></sub></span> are assumed to be zero. The same applies for item <span class="math inline"><em>i</em></span> with <span class="math inline"><em>b</em><sub><em>i</em></sub></span> and <span class="math inline"><em>q</em><sub><em>i</em></sub></span>.</p>
+</div>
+<div class="cell markdown" id="jCfY5mr7nVNN">
+<p>To estimate all the unknown, we minimize the following regularized squared error:</p>
+</div>
+<div class="cell markdown" id="1WyyjmK7nVNN">
+<p><span class="math display">∑<sub><em>r</em><sub><em>u</em><em>i</em></sub> ∈ <em>R</em><sub>train </sub></sub>(<em>r</em><sub><em>u</em><em>i</em></sub>−<em>r̂</em><sub><em>u</em><em>i</em></sub>)<sup>2</sup> + <em>λ</em>(<em>b</em><sub><em>i</em></sub><sup>2</sup>+<em>b</em><sub><em>u</em></sub><sup>2</sup>+∥<em>q</em><sub><em>i</em></sub>∥<sup>2</sup>+∥<em>p</em><sub><em>u</em></sub>∥<sup>2</sup>)</span></p>
+</div>
+<div class="cell markdown" id="-GBMNL9qnVNN">
+<p>The minimization is performed by a very straightforward <strong>stochastic gradient descent</strong>:</p>
+</div>
+<div class="cell markdown" id="CwJJRsJGnVNN">
+<p><span class="math display">$$\begin{aligned} b_{u} &amp; \leftarrow b_{u}+\gamma\left(e_{u i}-\lambda b_{u}\right) \\ b_{i} &amp; \leftarrow b_{i}+\gamma\left(e_{u i}-\lambda b_{i}\right) \\ p_{u} &amp; \leftarrow p_{u}+\gamma\left(e_{u i} \cdot q_{i}-\lambda p_{u}\right) \\ q_{i} &amp; \leftarrow q_{i}+\gamma\left(e_{u i} \cdot p_{u}-\lambda q_{i}\right) \end{aligned}$$</span></p>
+</div>
+<div class="cell markdown" id="nuRjcsUknVNN">
+<p>There are many hyperparameters to tune in this algorithm, you can find a full list of hyperparameters <a href="https://surprise.readthedocs.io/en/stable/matrix_factorization.html#surprise.prediction_algorithms.matrix_factorization.SVD">here</a></p>
+</div>
+<div class="cell markdown" id="iQcDPhhcnVNN">
+<p>Below we will be tuning only three hyperparameters:</p>
+<ul>
+<li><strong>n_epochs</strong>: The number of iterations of the SGD algorithm.</li>
+<li><strong>lr_all</strong>: The learning rate for all parameters.</li>
+<li><strong>reg_all</strong>: The regularization term for all parameters.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="110" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="4bM81V_hvtwv" data-outputId="6e6ef5e3-1a39-49b5-cdcd-362a34ce0aa9">
+<div class="sourceCode" id="cb98"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb98-1"><a href="#cb98-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the parameter space to tune</span></span>
+<span id="cb98-2"><a href="#cb98-2" aria-hidden="true" tabindex="-1"></a>param_grid <span class="op">=</span> {<span class="st">&#39;n_epochs&#39;</span>: [<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>], <span class="st">&#39;lr_all&#39;</span>: [<span class="fl">0.001</span>, <span class="fl">0.005</span>, <span class="fl">0.01</span>],</span>
+<span id="cb98-3"><a href="#cb98-3" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;reg_all&#39;</span>: [<span class="fl">0.2</span>, <span class="fl">0.4</span>, <span class="fl">0.6</span>]}</span>
+<span id="cb98-4"><a href="#cb98-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb98-5"><a href="#cb98-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Performing 3-fold gridsearch cross-validation</span></span>
+<span id="cb98-6"><a href="#cb98-6" aria-hidden="true" tabindex="-1"></a>gs_ <span class="op">=</span> GridSearchCV(SVD, param_grid, measures <span class="op">=</span> [<span class="st">&#39;rmse&#39;</span>], cv <span class="op">=</span> <span class="dv">3</span>, n_jobs <span class="op">=</span> <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb98-7"><a href="#cb98-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb98-8"><a href="#cb98-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Fitting data</span></span>
+<span id="cb98-9"><a href="#cb98-9" aria-hidden="true" tabindex="-1"></a>gs_.fit(data)</span>
+<span id="cb98-10"><a href="#cb98-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb98-11"><a href="#cb98-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Best RMSE score</span></span>
+<span id="cb98-12"><a href="#cb98-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(gs_.best_score[<span class="st">&#39;rmse&#39;</span>])</span>
+<span id="cb98-13"><a href="#cb98-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb98-14"><a href="#cb98-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Combination of parameters that gave the best RMSE score</span></span>
+<span id="cb98-15"><a href="#cb98-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(gs_.best_params[<span class="st">&#39;rmse&#39;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0.898747941297331
+{&#39;n_epochs&#39;: 30, &#39;lr_all&#39;: 0.01, &#39;reg_all&#39;: 0.4}
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="cjIaWSIAnVNN">
+<p>Once the <strong>grid search</strong> is complete, we can get the <strong>optimal values</strong> for each of those hyperparameters, as shown above.</p>
+</div>
+<div class="cell markdown" id="KzY78HsrnVNO">
+<p>Now, we will <strong>the build final model</strong> by using <strong>tuned values</strong> of the hyperparameters, which we received using grid search cross-validation above.</p>
+</div>
+<section id="question-fit-the-svd-model-using-the-hyperparameters-from-gridsearchcv-use-random_state--1-and-compare-the-output-with-the-baseline-model-5-marks" class="cell markdown" id="O4FSUZCL_VtI">
+<h3>Question: Fit the SVD model using the hyperparameters from GridSearchCV (use random_state = 1) and compare the output with the baseline model. (5 Marks)</h3>
+</section>
+<div class="cell code" data-execution_count="111" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="TA_7xe-nnhuu" data-outputId="a1d17027-1d46-404a-8f57-db253cfc0a01">
+<div class="sourceCode" id="cb100"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb100-1"><a href="#cb100-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the optimized SVD model using optimal hyperparameter search</span></span>
+<span id="cb100-2"><a href="#cb100-2" aria-hidden="true" tabindex="-1"></a>svd_optimized <span class="op">=</span> SVD(n_epochs<span class="op">=</span><span class="dv">30</span>,lr_all<span class="op">=</span><span class="fl">0.01</span>,reg_all<span class="op">=</span><span class="fl">0.4</span>,random_state<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb100-3"><a href="#cb100-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb100-4"><a href="#cb100-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the algorithm on the train set</span></span>
+<span id="cb100-5"><a href="#cb100-5" aria-hidden="true" tabindex="-1"></a>svd_optimized.fit(trainset)</span>
+<span id="cb100-6"><a href="#cb100-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb100-7"><a href="#cb100-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Use the function precision_recall_at_k to compute precision@k, recall@k, F1-Score, and RMSE</span></span>
+<span id="cb100-8"><a href="#cb100-8" aria-hidden="true" tabindex="-1"></a>precision_recall_at_k(svd_optimized)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>RMSE: 0.8826
+Precision:  0.854
+Recall:  0.881
+F_1 score:  0.867
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="9HJvPsjITsny">
+<p><strong>Observations:_____________</strong></p>
+<p>when compared to baseline model F1 score has incresed by 0.01 and RMSE has decreased by 0.0056</p>
+</div>
+<div class="cell markdown" id="md0-dL56nVNO">
+<p>Let's now predict a rating for a user with <code>userId = A3LDPF5FMB782Z</code> and <code>productId = 1400501466</code> with the optimized model as shown below.</p>
+</div>
+<section id="question" class="cell markdown" id="4Q2aChIx_aEt">
+<h3>Question:</h3>
+<ul>
+<li><strong>Using the optimized svd model, predict rating for the user with <code>userId</code> = "A3LDPF5FMB782Z", and <code>prod_id</code> = 1400501466. (1 Mark)</strong></li>
+<li><strong>Predict rating for the same userId = "A34BZM6S9L7QI4" but for a product with which this user has not interacted before, i.e., prod_id = 1400501466, by using the optimized model. (1 Mark)</strong></li>
+<li><strong>Compare the output with the output from the baseline model. (2 Marks)</strong></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="113" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="s6C1PAfboM8_" data-outputId="1b43c60b-a6bb-489a-f35f-edcdbcdcdf17">
+<div class="sourceCode" id="cb102"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb102-1"><a href="#cb102-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use svd_algo_optimized model to recommend for userId &quot;A3LDPF5FMB782Z&quot; and productId &quot;1400501466&quot;</span></span>
+<span id="cb102-2"><a href="#cb102-2" aria-hidden="true" tabindex="-1"></a>svd_optimized.predict(<span class="st">&#39;A3LDPF5FMB782Z&#39;</span>,<span class="st">&#39;1400501466&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="113">
+<pre><code>Prediction(uid=&#39;A3LDPF5FMB782Z&#39;, iid=&#39;1400501466&#39;, r_ui=None, est=4.050710688676286, details={&#39;was_impossible&#39;: False})</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="114" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="k1xjn3kOoQyg" data-outputId="87230a36-5587-4ab7-85e1-5d0f017bbd4e">
+<div class="sourceCode" id="cb104"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb104-1"><a href="#cb104-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use svd_algo_optimized model to recommend for userId &quot;A34BZM6S9L7QI4&quot; and productId &quot;1400501466&quot;</span></span>
+<span id="cb104-2"><a href="#cb104-2" aria-hidden="true" tabindex="-1"></a>svd_optimized.predict(<span class="st">&#39;A34BZM6S9L7QI4&#39;</span>,<span class="st">&#39;1400501466&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="114">
+<pre><code>Prediction(uid=&#39;A34BZM6S9L7QI4&#39;, iid=&#39;1400501466&#39;, r_ui=None, est=4.1530853020537855, details={&#39;was_impossible&#39;: False})</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="7BVcXmPOTsny">
+<p><strong>Observations:</strong>_____________</p>
+<p>The observed prediction estimation is around 4%</p>
+</div>
+<section id="question" class="cell markdown" id="hBeYrFxE_eAk">
+<h3>Question:</h3>
+<ul>
+<li><strong>Get 5 recommendations for the user with user_id = 'A2XIOXRRYX0KZY' using the svd_optimized model. Hint: Use get_recommendations() function (2 Marks)</strong></li>
+<li><strong>Rank the recommendations on the basis of the correct ratings. Hint: Use ranking_products() function (2 Marks)</strong></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="119" id="1LGeE2EB_n90">
+<div class="sourceCode" id="cb106"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb106-1"><a href="#cb106-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get top 5 recommendations for user_id A2XIOXRRYX0KZY using &quot;svd_optimized&quot; algorithm</span></span>
+<span id="cb106-2"><a href="#cb106-2" aria-hidden="true" tabindex="-1"></a>svd_recommendations <span class="op">=</span> get_recommendations(df_final,<span class="st">&#39;A2XIOXRRYX0KZY&#39;</span>,<span class="dv">5</span>,svd_optimized)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="120" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="6ngiGSJU818M" data-outputId="bfe82cec-ec73-4e7a-8801-03841810cad0">
+<div class="sourceCode" id="cb107"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb107-1"><a href="#cb107-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ranking products based on the above recommendations</span></span>
+<span id="cb107-2"><a href="#cb107-2" aria-hidden="true" tabindex="-1"></a>ranking_products(svd_recommendations,final_rating)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="120">
+
+  <div id="df-6813649d-6c76-4ef3-bfbb-f860a12dbc24">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>prod_id</th>
+      <th>rating_count</th>
+      <th>predicted_ratings</th>
+      <th>corrected_ratings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>B0010Y414Q</td>
+      <td>11</td>
+      <td>4.871664</td>
+      <td>4.570152</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B000JV9LUK</td>
+      <td>10</td>
+      <td>4.858314</td>
+      <td>4.542086</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>B00AR95ESC</td>
+      <td>9</td>
+      <td>4.856322</td>
+      <td>4.522988</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>B00065AO0K</td>
+      <td>5</td>
+      <td>4.889997</td>
+      <td>4.442784</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>B001FA09WI</td>
+      <td>6</td>
+      <td>4.847520</td>
+      <td>4.439272</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-6813649d-6c76-4ef3-bfbb-f860a12dbc24')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-6813649d-6c76-4ef3-bfbb-f860a12dbc24 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-6813649d-6c76-4ef3-bfbb-f860a12dbc24');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="conclusion-5-marks" class="cell markdown" id="nnwPwgjB8DwS">
+<h3>Conclusion (5 Marks)</h3>
+<p>In this case study, we built recommendation system using four different algorithms.</p>
+<pre><code>   *  Rank based recommendation system
+   *   user-user similiraty based collabrative filtering
+   *   item- item similarity based collabrativbe filtering 
+   *   Model based (Matrix factorization) collabrative filternig</code></pre>
+<ul>
+<li><p>To demmonstrate all the above recommendation system techniques library surprise is used.</p></li>
+<li><p>For performance evaluation <a href="mailto:precision@k" class="email">precision@k</a> and <a href="mailto:recall@k" class="email">recall@k</a> is used.</p></li>
+<li><p>Overall, the optimized user-user similarity based recommendation system has given the best performance in terms of F1 score 87%.</p></li>
+<li><p>Matrix factorization has the lowest RMSE(0.886) due to reason that both user_id and prod_id are present some low dimensional space.</p></li>
+<li><p>we can try combining different recommendation system models to build a more accurate model.</p></li>
+</ul>
+</section>
+<div class="cell markdown" id="xuqnifw9NF2p">
+<p><strong>Write your conclusion here</strong></p>
+</div>
+</body>
+</html>
